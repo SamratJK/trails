@@ -29,13 +29,13 @@ def test_tri_gram(data):
     assert result == test
 
 def test_get_csv(csv,n_gram=1):
-    result = get_gram_from_csv(csv,n_gram)
-    return result 
+    get_gram_from_csv(csv,n_gram)
+    # return result 
 
-def test_get_top_n_gram(csv,top=20):
-    result = get_top_n_grams(csv,top)
+def test_get_top_n_gram(csv,top=10):
+    get_top_n_grams(csv,top)
     
-    return result
+    # return result
 if __name__ == "__main__":
     # data = "Technopolis plans to develop in stages an area of no less than 100,000 square meters in order to host companies working in computer technologies and telecommunications the statement said"
     # test_uni_gram()
@@ -43,5 +43,8 @@ if __name__ == "__main__":
     # test_tri_gram(data)
 
 
-    print(test_get_top_n_gram("3_govt_urls_state_only.csv"))
-   
+    # (a,b,c) = test_get_top_n_gram("3_govt_urls_state_only.csv")
+    # print(type(a))
+    # print(a)
+
+    test_get_csv("3_govt_urls_state_only.csv")
