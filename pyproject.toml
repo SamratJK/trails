@@ -3,12 +3,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "n_gram_trail"
+name = "all_projects"
 version = "0.0.1"
 authors = [
     { name="Example Samrat", email="samratthapa0606@gmail.com" },
 ]
-description = "n-gram implmentation package"
+description = "Every project every created"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [

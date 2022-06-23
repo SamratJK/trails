@@ -1,5 +1,5 @@
-from n_gram_trail.n_gram import generate_n_gram
-from n_gram_trail.trail import get_gram_from_csv
+from all_projects.n_gram import generate_n_gram
+from all_projects.trail import get_gram_from_csv
 
 
 def test_uni_gram():
