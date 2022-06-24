@@ -49,15 +49,19 @@ def create_csv(top_gram):
             for data in n_gram:
                 file_writer.writerow(data)
 
-def is_in_top(gram_search,top_gram,which_file):
-    value_in = list()
+def is_in_top(gram_search,top_gram_bin,which_file):
+    value_in = defaultdict(list)
     for value in gram_search:
         for grams in value:
-            if grams in dict(top_gram):
-                value_in.append(grams)
-    with open('./tests/temp/'+which_file+'.csv','w') as write_file:
-        file_writer = csv.writer(write_file,delimiter='\n')
-        file_writer.writerow(value_in)
+            if grams in dict(top_gram_bin):
+                value_in[str(gram_search.index(value))].append(grams)
+#     return value_in
+  
+    with open('./tests/temp/patter.csv','w') as write_file:
+        file_writer = csv.writer(write_file,delimiter=',')
+        for key,data in value_in.items():
+            file_writer.writerow((key,data))
+
 
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
@@ -74,6 +78,18 @@ def get_top_n_grams(csv_name, top=20):
     ]
     is_in_top(binary,dic_binary,'grams_in_binary')
     is_in_top(ternary,dic_ternary,'grams_in_ternary')
-    create_csv([dic_unary, dic_binary, dic_ternary])
 
-    return [dic_unary, dic_binary, dic_ternary]
+    # for i in range(0,len(uniary)-1):
+    #     top_bin[str(i)] = "NaN"
+    #     top_bin[str(i)] = "NaN"
+    
+    
+    # with open('./tests/temp/patter.csv','w') as write_file:
+    #    file_writer = csv.writer(write_file,delimiter=',')
+    #    for key,data in value_in.items():
+    #        file_writer.writerow((key,data))
+    # create_csv([dic_unary, dic_binary, dic_ternary])
+
+    # return [dic_unary, dic_binary, dic_ternary]
+
+
