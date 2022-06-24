@@ -12,7 +12,7 @@ def get_data(csv_name):
     return raw_data
 
 
-def get_gram_from_csv(csv_name, result=10):
+def get_gram_from_csv(csv_name, result=0):
 
     n_gram_list_u = list()
     n_gram_list_b = list()
@@ -49,8 +49,19 @@ def create_csv(top_gram):
             for data in n_gram:
                 file_writer.writerow(data)
 
+def is_in_top(gram_search,top_gram,which_file):
+    value_in = list()
+    for value in gram_search:
+        for grams in value:
+            if grams in dict(top_gram):
+                value_in.append(grams)
+    with open('./tests/temp/'+which_file+'.csv','w') as write_file:
+        file_writer = csv.writer(write_file)
+        file_writer.writerow(value_in)
+
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
+    
 
     dic_unary = get_sorted_dic(uniary)[
         0:top
@@ -61,7 +72,8 @@ def get_top_n_grams(csv_name, top=20):
     dic_ternary = get_sorted_dic(ternary)[
         0:top
     ]
-
+    is_in_top(binary,dic_binary,'grams_in_binary')
+    is_in_top(ternary,dic_ternary,'grams_in_ternary')
     create_csv([dic_unary, dic_binary, dic_ternary])
 
     return [dic_unary, dic_binary, dic_ternary]

@@ -65,9 +65,11 @@ def test_get_csv(csv, n_gram=1):
 
 
 def test_get_top_n_gram(csv, top=50):
-    result = get_top_n_grams(csv, top)
+    # result = get_top_n_grams(csv, top)
 
-    return result
+    # return result
+
+    get_top_n_grams(csv, top)
 
 
 if __name__ == "__main__":
@@ -80,4 +82,4 @@ if __name__ == "__main__":
     # print(type(a))
     # print(a)
 
-    print(test_get_top_n_gram("3_govt_urls_state_only.csv"))
+    test_get_top_n_gram("3_govt_urls_state_only.csv")
