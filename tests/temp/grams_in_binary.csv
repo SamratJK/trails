@@ -4,13 +4,15 @@
 5,"['New York', 'York State']"
 7,['Cooperative Extension']
 8,"['New Mexico', 'Cooperative Extension']"
-13,['Housing Finance']
-14,['Housing Finance']
 21,"['Travel Tourism', 'Tourism Site']"
+22,['National Guard']
 27,['State Board']
+29,['Department Education']
 30,"['Travel Tourism', 'Tourism Site']"
+37,['National Guard']
 38,"['Travel Tourism', 'Tourism Site']"
 42,"['Travel Tourism', 'Tourism Site']"
+44,['Department Education']
 45,['Economic Development']
 50,['State Board']
 51,['State Board']
@@ -19,49 +21,71 @@
 60,['State Board']
 62,['North Carolina']
 64,"['North Carolina', 'Carolina Board']"
+77,['North Carolina']
+80,['Economic Development']
 86,"['Travel Tourism', 'Tourism Site']"
 90,['North Carolina']
 98,"['Travel Tourism', 'Tourism Site']"
+101,['National Guard']
 105,"['Travel Tourism', 'Tourism Site']"
-106,"['Travel Tourism', 'Tourism Site']"
+106,"['Travel Tourism', 'Tourism Site', 'South Carolina']"
 107,['Virginia Department']
+108,['Department Education']
+111,['National Guard']
 117,"['Washington State', 'State University']"
+124,['Washington State']
 125,"['Travel Tourism', 'Tourism Site']"
+127,['Cooperative Extension']
 128,"['Washington State', 'State University']"
 129,['West Virginia']
 130,['State University']
 132,"['New Mexico', 'Cooperative Extension']"
 133,['State University']
+135,['Cooperative Extension']
 136,['Cooperative Extension']
 141,['State University']
+148,['Department Education']
+152,['National Guard']
+160,['National Guard']
+161,['Department Education']
+168,['National Guard']
 169,['New Mexico']
-209,"['Travel Tourism', 'Tourism Site']"
-212,['Economic Development']
-214,['Economic Development']
-218,"['The North', 'North Carolina', 'Carolina Division']"
-220,"['North Carolina', 'Carolina Division']"
+194,['Department Education']
+197,"['Historical Society', 'New Mexico']"
+203,['National Guard']
+209,"['Travel Tourism', 'Tourism Site', 'New York']"
+212,"['Economic Development', 'Development Authority']"
+214,"['Economic Development', 'Development Authority']"
+216,['National Guard']
+218,"['The North', 'North Carolina']"
+220,['North Carolina']
+227,['National Guard']
 230,"['Travel Tourism', 'Tourism Site']"
 233,['State Board']
 234,['State Board']
+237,['Historical Society']
 248,['Board Examiners']
-249,['Louisiana Board']
-250,['Louisiana Board']
-251,"['Louisiana State', 'State Board']"
-252,"['Louisiana State', 'State Board']"
-254,"['Louisiana Board', 'Board Examiners']"
-261,"['Louisiana State', 'State Board']"
-263,"['Louisiana Board', 'Board Examiners']"
-267,"['South Carolina', 'Carolina Department']"
+251,['State Board']
+252,['State Board']
+254,['Board Examiners']
+261,['State Board']
+263,['Board Examiners']
+265,['Virgin Islands']
+267,['South Carolina']
+270,['Development Authority']
 274,"['Travel Tourism', 'Tourism Site']"
-278,"['Louisiana State', 'State Board', 'Board Examiners']"
-279,"['Louisiana State', 'State Board', 'Board Examiners']"
-280,"['Louisiana State', 'State Board', 'Board Examiners']"
-281,['Louisiana Board']
-282,"['Louisiana State', 'State Board']"
-284,['Louisiana Board']
-285,['Louisiana Board']
+275,['Board Examiners']
+277,['Board Examiners']
+278,"['State Board', 'Board Examiners']"
+279,"['State Board', 'Board Examiners']"
+280,"['State Board', 'Board Examiners']"
+282,['State Board']
 297,"['Travel Tourism', 'Tourism Site']"
 310,"['Travel Tourism', 'Tourism Site']"
+315,['National Guard']
+316,['National Guard']
+317,['Development Authority']
+322,['National Guard']
 330,['State Board']
 335,['State University']
 336,['State University']
@@ -69,7 +93,7 @@
 346,"['Travel Tourism', 'Tourism Site']"
 350,['North Carolina']
 352,['North Carolina']
-355,"['North Carolina', 'Carolina Division']"
+355,['North Carolina']
 356,"['The North', 'North Carolina']"
 362,['North Carolina']
 365,"['North Carolina', 'Carolina Board']"
@@ -88,29 +112,33 @@
 378,['NC Board']
 379,['NC Board']
 380,"['The North', 'North Carolina', 'Carolina Board']"
+381,['North Carolina']
 386,['North Carolina']
 387,"['The North', 'North Carolina']"
 389,"['North Carolina', 'Carolina Board']"
 390,['North Carolina']
 393,['North Carolina']
-394,"['North Carolina', 'Carolina Department']"
+394,['North Carolina']
 398,"['North Carolina', 'State Board']"
 399,['North Carolina']
-405,"['North Carolina', 'Carolina Department']"
+405,['North Carolina']
 407,['North Carolina']
 409,"['The North', 'North Carolina']"
 410,"['The North', 'North Carolina']"
 412,['North Carolina']
 414,['North Carolina']
+416,['North Carolina']
 420,['North Carolina']
 421,['North Carolina']
+423,['North Carolina']
+424,['North Carolina']
 425,"['The North', 'North Carolina']"
-429,['Housing Finance']
 430,['North Carolina']
 435,"['The North', 'North Carolina']"
 436,"['North Carolina', 'North Carolina']"
 439,"['North Carolina', 'State Board', 'Board Examiners']"
 442,['North Carolina']
+443,['North Carolina']
 444,"['The North', 'North Carolina']"
 445,['North Carolina']
 446,['North Carolina']
@@ -119,60 +147,69 @@
 456,['North Carolina']
 460,"['North Carolina', 'State Board', 'Board Examiners']"
 465,"['The North', 'North Carolina', 'Carolina Board']"
-467,"['North Carolina', 'Carolina Division']"
+467,['North Carolina']
 472,['North Carolina']
 473,['North Carolina']
 474,['State Board']
 479,['North Carolina']
 480,['North Carolina']
-481,"['The North', 'North Carolina', 'North Carolina', 'Carolina Department']"
+481,"['The North', 'North Carolina', 'North Carolina']"
 487,['North Carolina']
 490,['North Carolina']
-494,"['North Carolina', 'Carolina Department']"
+494,['North Carolina']
 495,['North Carolina']
-498,"['North Carolina', 'Carolina Division']"
+498,['North Carolina']
 499,['North Carolina']
-502,"['North Carolina', 'Carolina Department']"
+502,['North Carolina']
 507,"['Travel Tourism', 'Tourism Site']"
-521,"['Travel Tourism', 'Tourism Site']"
-528,['Economic Development']
+514,['Historical Society']
+517,['Economic Development']
+521,"['Travel Tourism', 'Tourism Site', 'New Mexico']"
+522,['Economic Development']
+524,['Historical Society']
+528,"['Economic Development', 'Development Authority']"
 533,['New Mexico']
 534,['New Mexico']
 535,['New Mexico']
 538,"['New York', 'York State']"
-539,['New York']
+539,"['New York', 'Historical Society']"
 540,"['New York', 'York State']"
-541,"['New York', 'York State']"
+541,"['New York', 'York State', 'state agencies']"
 542,"['New York', 'York State']"
 543,"['New York', 'York State']"
 544,"['New York', 'York State']"
 545,"['New York', 'York State']"
-568,"['North Carolina', 'Carolina Division']"
-583,['Housing Finance']
+552,['Historical Society']
+568,['North Carolina']
 585,['South Carolina']
 587,['Washington State']
 595,['State Board']
+596,['Department Education']
 607,['New Mexico']
 609,['State Board']
 610,"['Washington State', 'State Board']"
 615,['South Carolina']
 616,['South Carolina']
+620,['National Guard']
 623,['South Carolina']
 624,['South Carolina']
 625,['South Carolina']
 627,['South Carolina']
 628,['South Carolina']
-630,"['South Carolina', 'Carolina Department']"
+630,['South Carolina']
 631,['South Carolina']
+635,['Development Authority']
 641,['North Carolina']
-652,['pattern include']
-653,['pattern include']
-655,['pattern include']
-656,['pattern include']
-658,['pattern include']
-667,['pattern include']
-672,['pattern include']
-674,['pattern include']
+652,['state agencies']
+653,['state agencies']
+655,['state agencies']
+656,['state agencies']
+658,['state agencies']
+667,['state agencies']
+672,['state agencies']
+674,['state agencies']
+675,['New Mexico']
+701,['National Guard']
 704,"['Travel Tourism', 'Tourism Site']"
 705,"['Travel Tourism', 'Tourism Site']"
 706,"['Travel Tourism', 'Tourism Site']"
@@ -184,16 +221,21 @@
 712,"['Travel Tourism', 'Tourism Sites']"
 715,['Washington State']
 718,['Cooperative Extension']
-721,['Economic Development']
+720,['Virgin Islands']
+721,"['Virgin Islands', 'Economic Development', 'Development Authority']"
 724,['Cooperative Extension']
 729,['Virginia Department']
 730,['Virginia Department']
 732,['Virginia Department']
 737,['Virginia Department']
 738,['Virginia Department']
+741,['Historical Society']
 742,"['Travel Tourism', 'Tourism Site']"
-744,['Housing Finance']
+743,['Development Authority']
 745,['Virginia Department']
+747,"['Virgin Islands', 'Department Education']"
+748,['Virgin Islands']
+749,['Virgin Islands']
 750,"['Travel Tourism', 'Tourism Sites']"
 752,['Economic Development']
 753,['Virginia Department']
@@ -207,21 +249,31 @@
 763,"['Travel Tourism', 'Tourism Sites']"
 764,"['Travel Tourism', 'Tourism Site']"
 765,"['Travel Tourism', 'Tourism Site']"
-766,"['Travel Tourism', 'Tourism Site']"
+766,"['Travel Tourism', 'Tourism Site', 'North Carolina']"
 767,"['Travel Tourism', 'Tourism Site']"
 768,"['Travel Tourism', 'Tourism Site']"
 769,"['Travel Tourism', 'Tourism Site']"
+770,['Virgin Islands']
 771,"['Travel Tourism', 'Tourism Site']"
+772,['Virgin Islands']
 777,['North Carolina']
+781,['National Guard']
 785,['Washington State']
 786,['Washington State']
 787,"['Travel Tourism', 'Tourism Site']"
+788,['National Guard']
+789,['National Guard']
+790,['National Guard']
 791,['Washington State']
+794,['North Carolina']
+796,['Cooperative Extension']
 797,['Economic Development']
-799,['Economic Development']
+799,"['Economic Development', 'Development Authority']"
+803,['Virgin Islands']
+804,['Historical Society']
 808,['Washington State']
 809,['Washington State']
-810,"['Washington State', 'Housing Finance']"
+810,['Washington State']
 811,['Washington State']
 812,"['West Virginia', 'Virginia Department']"
 813,"['West Virginia', 'Virginia Department']"
@@ -235,6 +287,7 @@
 821,['West Virginia']
 822,['West Virginia']
 823,['West Virginia']
-824,"['Travel Tourism', 'Tourism Site']"
-825,['West Virginia']
+824,"['Travel Tourism', 'Tourism Site', 'West Virginia']"
+825,"['West Virginia', 'Development Authority']"
+826,['National Guard']
 828,"['Travel Tourism', 'Tourism Site']"
