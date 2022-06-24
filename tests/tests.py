@@ -64,7 +64,7 @@ def test_get_csv(csv, n_gram=1):
     return result
 
 
-def test_get_top_n_gram(csv, top=10):
+def test_get_top_n_gram(csv, top=50):
     result = get_top_n_grams(csv, top)
 
     return result

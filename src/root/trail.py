@@ -33,39 +33,35 @@ def get_gram_from_csv(csv_name, result=10):
     return [n_gram_list_u, n_gram_list_b, n_gram_list_t]
 
 
+def get_sorted_dic(ngram_dic):
+    default_dict = defaultdict(int)
+    for gram in ngram_dic:
+         for value in gram:
+            default_dict[value] += 1
+    default_dict = sorted(default_dict.items(), key=lambda x: x[1], reverse=True)
+
+    return default_dict
+
+def create_csv(top_gram):
+    with open('./tests/temp/data_set.csv','w') as write_file:
+        file_writer = csv.writer(write_file,delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        for n_gram in top_gram:
+            for data in n_gram:
+                file_writer.writerow(data)
+
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
 
-    dic_unary = defaultdict(int)
-    dic_binary = defaultdict(int)
-    dic_ternary = defaultdict(int)
-
-    for gram in uniary:
-        for value in gram:
-            dic_unary[value] += 1
-
-    for gram in binary:
-        for value in gram:
-            dic_binary[value] += 1
-
-    for gram in ternary:
-        for value in gram:
-            dic_ternary[value] += 1
-
-    dic_unary = sorted(dic_unary.items(), key=lambda x: x[1], reverse=True)[
+    dic_unary = get_sorted_dic(uniary)[
         0:top
     ]
-    dic_binary = sorted(dic_binary.items(), key=lambda x: x[1], reverse=True)[
+    dic_binary = get_sorted_dic(binary)[
         0:top
     ]
-    dic_ternary = sorted(
-        dic_ternary.items(), key=lambda x: x[1], reverse=True
-    )[0:top]
+    dic_ternary = get_sorted_dic(ternary)[
+        0:top
+    ]
 
-    # with open('unary.csv','wb') as writefile:
-    #     write_csv = csv.writer(writefile)
-    #     # write_csv.writerow(['ngrams','frequency'])
-    #     for i in range(len(unary_list)):
-    #         write_csv.writerow(x[i] for x in unary_list)
+    create_csv([dic_unary, dic_binary, dic_ternary])
 
-    return (dic_unary, dic_binary, dic_ternary)
+    return [dic_unary, dic_binary, dic_ternary]
