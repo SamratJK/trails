@@ -1,14 +1,12 @@
 0,['Travel Tourism Site']
-5,['New York State']
+1,['See historical snapshot']
+2,"['211 VIRGINIA service', 'VIRGINIA service Department', 'service Department Social', 'Department Social Services', 'Social Services provided', 'Services provided partnership', 'provided partnership Council']"
+3,"['211 VIRGINIA service', 'VIRGINIA service Department', 'service Department Social', 'Department Social Services', 'Social Services provided', 'Services provided partnership', 'provided partnership Council']"
 21,['Travel Tourism Site']
+29,['State Department Education']
 30,['Travel Tourism Site']
 38,['Travel Tourism Site']
 42,['Travel Tourism Site']
-50,['Arkansas State Board']
-51,['Arkansas State Board']
-52,['Arkansas State Board']
-55,['New York State']
-64,['North Carolina Board']
 86,['Travel Tourism Site']
 98,['Travel Tourism Site']
 105,['Travel Tourism Site']
@@ -20,25 +18,21 @@
 130,['State University Extension']
 132,['Cooperative Extension Service']
 133,['State University Extension']
-136,['Cooperative Extension Service']
-164,"['Georgia State Defense', 'State Defense Force']"
-165,"['Georgia State Defense', 'State Defense Force']"
-166,"['Georgia State Defense', 'State Defense Force']"
+136,"['University Cooperative Extension', 'Cooperative Extension Service']"
+161,['State Department Education']
+164,['State Defense Force']
+165,['State Defense Force']
+166,['State Defense Force']
+194,['State Department Education']
 203,['Army National Guard']
 209,['Travel Tourism Site']
 212,['Economic Development Authority']
 214,['Economic Development Authority']
-218,"['The North Carolina', 'North Carolina Division']"
-220,"['State North Carolina', 'North Carolina Division']"
 230,['Travel Tourism Site']
-251,['Louisiana State Board']
-252,['Louisiana State Board']
-261,['Louisiana State Board']
 274,['Travel Tourism Site']
-278,"['Louisiana State Board', 'State Board Examiners']"
-279,"['Louisiana State Board', 'State Board Examiners']"
-280,"['Louisiana State Board', 'State Board Examiners']"
-282,['Louisiana State Board']
+278,['State Board Examiners']
+279,['State Board Examiners']
+280,['State Board Examiners']
 297,['Travel Tourism Site']
 306,['Employees Retirement System']
 310,['Travel Tourism Site']
@@ -46,59 +40,29 @@
 336,['State University Extension']
 337,['State University Extension']
 346,['Travel Tourism Site']
-355,['North Carolina Division']
-356,['The North Carolina']
-365,['North Carolina Board']
-367,['North Carolina Board']
 368,['NC Board Examiners']
 369,['NC Board Examiners']
-373,"['The North Carolina', 'North Carolina Board']"
-374,"['The North Carolina', 'North Carolina Board']"
-375,['The North Carolina']
 376,['NC Board Examiners']
-380,"['The North Carolina', 'North Carolina Board']"
-381,['State North Carolina']
-387,['The North Carolina']
-389,['North Carolina Board']
-393,['North Carolina Office']
-394,['North Carolina Department']
-398,['North Carolina State']
-405,['North Carolina Department']
-409,"['The North Carolina', 'North Carolina Office']"
-410,['The North Carolina']
-423,['State North Carolina']
-425,['The North Carolina']
-435,['The North Carolina']
-439,"['North Carolina State', 'State Board Examiners']"
+421,['See historical snapshot']
+429,['Housing Finance Agency']
+439,['State Board Examiners']
 440,"['Employees Retirement System', 'Employees Retirement System']"
-444,['The North Carolina']
-445,"['State North Carolina', 'North Carolina Office']"
-454,['The North Carolina']
-456,['North Carolina Office']
-460,"['North Carolina State', 'State Board Examiners']"
-465,"['The North Carolina', 'North Carolina Board']"
-467,['North Carolina Division']
-481,"['The North Carolina', 'North Carolina State', 'North Carolina Department']"
-490,['State North Carolina']
-494,['North Carolina Department']
-498,['North Carolina Division']
-502,['North Carolina Department']
+460,['State Board Examiners']
 507,['Travel Tourism Site']
 521,['Travel Tourism Site']
 528,['Economic Development Authority']
-538,['New York State']
-540,['New York State']
-541,['New York State']
-542,['New York State']
-543,['New York State']
-544,['New York State']
-545,['New York State']
-568,['North Carolina Division']
-575,"['Georgia State Defense', 'State Defense Force']"
+575,['State Defense Force']
+583,['Housing Finance Agency']
 623,['Independent Living Council']
 624,['Independent Living Council']
 628,['Independent Living Council']
-641,['North Carolina State']
+652,"['pattern include state', 'include state agencies']"
+653,"['pattern include state', 'include state agencies']"
+655,"['pattern include state', 'include state agencies']"
+656,"['pattern include state', 'include state agencies']"
+658,"['pattern include state', 'include state agencies']"
+667,"['pattern include state', 'include state agencies']"
+674,"['pattern include state', 'include state agencies']"
 704,['Travel Tourism Site']
 705,['Travel Tourism Site']
 706,['Travel Tourism Site']
@@ -109,12 +73,11 @@
 711,['Travel Tourism Sites']
 712,['Travel Tourism Sites']
 718,['Cooperative Extension Service']
-720,['US Virgin Islands']
-721,"['US Virgin Islands', 'Economic Development Authority']"
-724,['Cooperative Extension Service']
+721,['Economic Development Authority']
+724,"['University Cooperative Extension', 'Cooperative Extension Service']"
 734,['Independent Living Council']
 742,['Travel Tourism Site']
-749,['US Virgin Islands']
+744,['Housing Finance Agency']
 750,['Travel Tourism Sites']
 755,['Travel Tourism Site']
 757,['Travel Tourism Sites']
@@ -130,15 +93,12 @@
 767,['Travel Tourism Site']
 768,['Travel Tourism Site']
 769,['Travel Tourism Site']
-770,"['Travel tourism site', 'US Virgin Islands']"
+770,['Travel tourism site']
 771,['Travel Tourism Site']
 787,['Travel Tourism Site']
 789,['Army National Guard']
+796,['University Cooperative Extension']
 799,['Economic Development Authority']
-812,['West Virginia Department']
-813,['West Virginia Department']
-815,['West Virginia Department']
-818,['West Virginia Department']
 824,['Travel Tourism Site']
 826,['Army National Guard']
 828,['Travel Tourism Site']
