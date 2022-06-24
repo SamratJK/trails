@@ -36,48 +36,50 @@ def get_gram_from_csv(csv_name, result=0):
 def get_sorted_dic(ngram_dic):
     default_dict = defaultdict(int)
     for gram in ngram_dic:
-        for value in gram:
+         for value in gram:
             default_dict[value] += 1
-    default_dict = sorted(
-        default_dict.items(), key=lambda x: x[1], reverse=True
-    )
+    default_dict = sorted(default_dict.items(), key=lambda x: x[1], reverse=True)
 
     return default_dict
 
-
 def create_csv(top_gram):
-    with open("./tests/temp/data_set.csv", "w") as write_file:
-        file_writer = csv.writer(
-            write_file, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL
-        )
+    with open('./tests/temp/data_set.csv','w') as write_file:
+        file_writer = csv.writer(write_file,delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
         for n_gram in top_gram:
             for data in n_gram:
                 file_writer.writerow(data)
 
-
-def is_in_top(gram_search, top_gram_bin, which_file):
+def is_in_top(gram_search,top_gram_bin,which_file):
     value_in = defaultdict(list)
     for value in gram_search:
         for grams in value:
             if grams in dict(top_gram_bin):
                 value_in[str(gram_search.index(value))].append(grams)
 
-    with open("./tests/temp/patter.csv", "w") as write_file:
-        file_writer = csv.writer(write_file, delimiter=",")
-        for key, data in value_in.items():
-            file_writer.writerow((key, data))
+  
+    with open('./tests/temp/patter.csv','w') as write_file:
+        file_writer = csv.writer(write_file,delimiter=',')
+        for key,data in value_in.items():
+            file_writer.writerow((key,data))
 
     return value_in
 
 
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
+    
 
-    dic_unary = get_sorted_dic(uniary)[0:top]
-    dic_binary = get_sorted_dic(binary)[0:top]
-    dic_ternary = get_sorted_dic(ternary)[0:top]
-    top_bin = is_in_top(binary, dic_binary, "grams_in_binary")
-    top_ter = is_in_top(ternary, dic_ternary, "grams_in_ternary")
+    dic_unary = get_sorted_dic(uniary)[
+        top:
+    ]
+    dic_binary = get_sorted_dic(binary)[
+        top:
+    ]
+    dic_ternary = get_sorted_dic(ternary)[
+        top:
+    ]
+    top_bin = is_in_top(binary,dic_binary,'grams_in_binary')
+    top_ter = is_in_top(ternary,dic_ternary,'grams_in_ternary')
     jpt = defaultdict(list)
 
     raw_data = get_data(csv_name)
@@ -86,16 +88,17 @@ def get_top_n_grams(csv_name, top=20):
         if raw_data.index(data) == 0:
             continue
         data_csv.append(data[5])
-    for i in range(0, len(uniary) - 1):
+    for i in range(0,len(uniary)-1):
         tmp = top_bin[str(i)] + top_ter[str(i)]
-        jpt[str(i)].append(", ".join(tmp))
-        jpt[str(i)].append(" ".join(uniary[i]))
+        jpt[str(i)].append(', '.join(tmp))
+        jpt[str(i)].append(' '.join(uniary[i]))
 
-    with open("./tests/temp/patter.csv", "w") as write_file:
-        file_writer = csv.writer(write_file, delimiter=",")
-        for key, data in jpt.items():
-            file_writer.writerow(data)
-
+    with open('./tests/temp/patter.csv','w') as write_file:
+       file_writer = csv.writer(write_file,delimiter=',')
+       for key,data in jpt.items():
+           file_writer.writerow(data)
+           
     create_csv([dic_unary, dic_binary, dic_ternary])
+    print(jpt)
 
     return [dic_unary, dic_binary, dic_ternary]
