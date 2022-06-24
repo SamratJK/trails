@@ -57,7 +57,7 @@ def is_in_top(gram_search,top_gram_bin,which_file):
                 value_in[str(gram_search.index(value))].append(grams)
 
   
-    with open('./tests/temp/patter.csv','w') as write_file:
+    with open('./tests/temp/'+which_file+'.csv','w') as write_file:
         file_writer = csv.writer(write_file,delimiter=',')
         for key,data in value_in.items():
             file_writer.writerow((key,data))
@@ -70,13 +70,19 @@ def get_top_n_grams(csv_name, top=20):
     
 
     dic_unary = get_sorted_dic(uniary)[
-        top:
+       0:top
+    ] + get_sorted_dic(uniary)[
+       -top:
     ]
     dic_binary = get_sorted_dic(binary)[
-        top:
+       0:top
+    ]+ get_sorted_dic(uniary)[
+       -top:
     ]
     dic_ternary = get_sorted_dic(ternary)[
-        top:
+        0:top
+    ]+ get_sorted_dic(uniary)[
+       -top:
     ]
     top_bin = is_in_top(binary,dic_binary,'grams_in_binary')
     top_ter = is_in_top(ternary,dic_ternary,'grams_in_ternary')

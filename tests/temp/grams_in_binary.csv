@@ -20,11 +20,11 @@
 20,"['Note added', 'Note added']"
 21,"['Travel Tourism', 'Tourism Site', 'Note added']"
 22,"['National Guard', 'Note added']"
-23,['Note added']
+23,"['Office Note', 'Note added']"
 26,['Note added']
 27,"['State Board', 'Note added']"
 28,['Note added']
-29,['Note added']
+29,"['Education Note', 'Note added']"
 30,"['Travel Tourism', 'Tourism Site', 'Note added']"
 32,['Note added']
 33,['Note added']
@@ -36,15 +36,15 @@
 39,['Note added']
 42,"['Travel Tourism', 'Tourism Site', 'Note added']"
 43,['Note added']
-44,['Note added']
-45,['Note added']
+44,"['Education Note', 'Note added']"
+45,"['Economic Development', 'Note added']"
 46,"['Commission Note', 'Note added']"
 48,"['Commission Note', 'Note added']"
 49,"['Board Note', 'Note added']"
 50,"['State Board', 'Note added']"
 51,"['State Board', 'Note added']"
 52,"['State Board', 'Note added']"
-54,['Note added']
+54,"['Office Note', 'Note added']"
 55,"['New York', 'Note added']"
 57,['Note added']
 58,"['Examiners Note', 'Note added']"
@@ -59,7 +59,7 @@
 71,['Note added']
 74,['Note added']
 79,['Note added']
-80,['Note added']
+80,"['Economic Development', 'Note added']"
 81,['Note added']
 84,['Note added']
 86,"['Travel Tourism', 'Tourism Site', 'Note added']"
@@ -77,7 +77,7 @@
 105,"['Travel Tourism', 'Tourism Site', 'Note added']"
 106,"['Travel Tourism', 'Tourism Site', 'South Carolina', 'Note added']"
 107,"['Virginia Department', 'Note added']"
-108,['Note added']
+108,"['Education Note', 'Note added']"
 109,['Note added']
 111,"['National Guard', 'Note added']"
 112,['Note added']
@@ -95,14 +95,14 @@
 126,['Note added']
 127,"['Extension Note', 'Note added']"
 128,"['Washington State', 'Extension Note', 'Note added']"
-129,"['West Virginia', 'Note added']"
+129,"['West Virginia', 'Service Note', 'Note added']"
 130,"['Extension Note', 'Note added']"
 131,"['Extension Note', 'Note added']"
-132,['Note added']
-133,['Note added']
+132,"['Service Note', 'Note added']"
+133,"['Service Note', 'Note added']"
 134,"['Extension Note', 'Note added']"
 135,"['Extension Note', 'Note added']"
-136,['Note added']
+136,"['Service Note', 'Note added']"
 137,['Note added']
 138,"['Extension Note', 'Note added']"
 139,['Note added']
@@ -112,8 +112,8 @@
 144,['Note added']
 145,['Note added']
 146,['Note added']
-148,['Note added']
-149,['Note added']
+148,"['Education Note', 'Note added']"
+149,"['Office Note', 'Note added']"
 151,['Note added']
 152,"['National Guard', 'Note added']"
 153,"['Commission Note', 'Note added', 'Commission Note', 'Note added']"
@@ -121,21 +121,21 @@
 158,['Note added']
 159,['Note added']
 160,"['National Guard', 'Guard Note', 'Note added']"
-161,['Note added']
+161,"['Education Note', 'Note added']"
 162,['Note added']
 163,['Note added']
 164,['Note added']
 168,"['National Guard', 'Guard Note', 'Note added']"
 169,['Note added']
 170,"['Commission Note', 'Note added']"
-171,['Note added']
+171,"['Council Note', 'Note added']"
 172,['Note added']
 173,['Note added']
 174,"['Commission Note', 'Note added']"
 175,['Note added']
 176,['Note added']
 178,['Note added']
-181,['Note added']
+181,"['Office Note', 'Note added']"
 184,['Note added']
 187,['Note added']
 189,"['Commission Note', 'Note added']"
@@ -143,7 +143,7 @@
 191,['Note added']
 192,['Note added']
 193,"['Commission Note', 'Note added']"
-194,['Note added']
+194,"['Education Note', 'Note added']"
 196,['Note added']
 197,['Note added']
 198,['Note added']
@@ -158,9 +158,9 @@
 208,"['Lottery Note', 'Note added']"
 209,"['Travel Tourism', 'Tourism Site', 'New York', 'Note added']"
 211,['Note added']
-212,['Note added']
+212,"['Economic Development', 'Note added']"
 213,['Note added']
-214,"['Authority Note', 'Note added']"
+214,"['Economic Development', 'Authority Note', 'Note added']"
 216,"['National Guard', 'Guard Note', 'Note added']"
 217,['Note added']
 218,"['The North', 'North Carolina']"
@@ -197,7 +197,7 @@
 252,"['State Board', 'Examiners Note', 'Note added']"
 253,['Note added']
 254,"['Board Examiners', 'Note added']"
-255,['Note added']
+255,"['Council Note', 'Note added']"
 257,"['Board Note', 'Note added']"
 258,"['Board Note', 'Note added']"
 259,"['Board Note', 'Note added']"
@@ -232,7 +232,7 @@
 291,['Note added']
 292,['Note added']
 293,['Note added']
-294,['Note added']
+294,"['Council Note', 'Note added']"
 295,['Note added']
 296,"['Lottery Note', 'Note added']"
 297,"['Travel Tourism', 'Tourism Site', 'Note added']"
@@ -242,7 +242,7 @@
 304,"['Authority Note', 'Note added']"
 306,['Note added']
 308,"['Authority Note', 'Note added']"
-309,['Note added']
+309,"['Office Note', 'Note added']"
 310,"['Travel Tourism', 'Tourism Site', 'Note added']"
 311,['Note added']
 312,"['Lottery Note', 'Note added']"
@@ -274,7 +274,7 @@
 348,['Note added']
 349,['Note added']
 350,"['North Carolina', 'Lottery Note', 'Note added']"
-351,['Note added']
+351,"['Office Note', 'Note added']"
 352,"['North Carolina', 'Commission Note', 'Note added']"
 353,['Note added']
 355,"['North Carolina', 'Note added']"
@@ -284,7 +284,7 @@
 359,['Note added']
 360,['Note added']
 361,['Note added']
-362,"['North Carolina', 'Note added']"
+362,"['North Carolina', 'Council Note', 'Note added']"
 364,['Note added']
 365,"['North Carolina', 'Note added']"
 366,"['Examiners Note', 'Note added']"
@@ -320,16 +320,16 @@
 398,"['North Carolina', 'State Board', 'Examiners Note', 'Note added']"
 399,['North Carolina']
 403,['Note added']
-404,['Note added']
+404,"['Education Note', 'Note added']"
 405,"['North Carolina', 'Note added']"
 406,['Note added']
-407,"['North Carolina', 'Note added']"
+407,"['North Carolina', 'Council Note', 'Note added']"
 408,['Note added']
 409,"['The North', 'North Carolina', 'Note added']"
 410,"['The North', 'North Carolina', 'Note added']"
 412,['North Carolina']
 414,['North Carolina']
-415,['Note added']
+415,"['Office Note', 'Note added']"
 417,['Note added']
 418,['Note added']
 419,['Note added']
@@ -392,7 +392,7 @@
 485,['Note added']
 486,"['Extension Note', 'Note added']"
 488,['Note added']
-490,"['North Carolina', 'Note added']"
+490,"['North Carolina', 'Office Note', 'Note added']"
 491,['Note added']
 492,['Note added']
 493,['Note added']
@@ -410,25 +410,25 @@
 506,['Note added']
 507,"['Travel Tourism', 'Tourism Site', 'Note added']"
 508,"['Board Note', 'Note added']"
-509,['Note added']
+509,"['Council Note', 'Note added']"
 510,['Note added']
 512,"['Board Note', 'Note added']"
 513,"['Commission Note', 'Note added']"
 514,['Note added']
 515,"['Commission Note', 'Note added']"
 516,"['Board Note', 'Note added']"
-517,['Note added']
+517,"['Economic Development', 'Note added']"
 518,"['Lottery Note', 'Note added']"
 519,['Note added']
 520,['Note added']
 521,"['Travel Tourism', 'Tourism Site', 'Note added']"
-522,['Note added']
-523,['Note added']
+522,"['Economic Development', 'Note added']"
+523,"['Service Note', 'Note added']"
 524,['Note added']
 525,['Note added']
 526,"['Commission Note', 'Note added']"
 527,['Note added']
-528,"['Authority Note', 'Note added']"
+528,"['Economic Development', 'Authority Note', 'Note added']"
 530,['Note added']
 531,['Note added']
 532,['Note added']
@@ -444,7 +444,7 @@
 545,"['New York', 'Note added']"
 546,"['Commission Note', 'Note added']"
 548,['Note added']
-549,['Note added']
+549,"['Council Note', 'Note added']"
 550,"['Lottery Note', 'Note added']"
 551,['Note added']
 552,['Note added']
@@ -460,7 +460,7 @@
 565,['Note added']
 566,['Note added']
 567,['Note added']
-568,"['North Carolina', 'Note added']"
+568,"['North Carolina', 'Service Note', 'Note added']"
 569,['Note added']
 570,['Note added']
 571,"['Authority Note', 'Note added']"
@@ -468,10 +468,10 @@
 573,['Note added']
 574,['Note added']
 576,['Note added']
-577,['Note added']
+577,"['Education Note', 'Note added']"
 578,"['Authority Note', 'Note added']"
 579,"['Commission Note', 'Note added']"
-580,['Note added']
+580,"['Council Note', 'Note added']"
 581,['Note added']
 582,"['Authority Note', 'Note added']"
 583,['Note added']
@@ -481,7 +481,7 @@
 591,['Note added']
 594,"['Commission Note', 'Note added']"
 595,"['State Board', 'Examiners Note', 'Note added']"
-596,['Note added']
+596,"['Education Note', 'Note added']"
 597,['Note added']
 598,['Note added']
 599,"['Lottery Note', 'Note added']"
@@ -574,13 +574,13 @@
 714,"['Commission Note', 'Note added']"
 715,"['Washington State', 'Authority Note', 'Note added']"
 716,"['Lottery Note', 'Note added']"
-718,['Note added']
+718,"['Service Note', 'Note added']"
 719,"['Extension Note', 'Note added']"
 720,['Note added']
-721,"['Authority Note', 'Note added']"
+721,"['Economic Development', 'Authority Note', 'Note added']"
 722,"['Extension Note', 'Note added']"
 723,['Note added']
-724,['Note added']
+724,"['Service Note', 'Note added']"
 725,['Note added']
 727,['Note added']
 728,['Note added']
@@ -588,23 +588,23 @@
 731,['Note added']
 732,"['Virginia Department', 'Note added']"
 733,"['Lottery Note', 'Note added']"
-734,['Note added']
+734,"['Council Note', 'Note added']"
 735,['Note added']
 736,['Note added']
 737,"['Virginia Department', 'Note added']"
 738,"['Virginia Department', 'Note added']"
 739,['Note added']
-740,['Note added']
+740,"['Council Note', 'Note added']"
 741,['Note added']
 743,"['Authority Note', 'Note added']"
 744,['Note added']
 745,"['Virginia Department', 'Note added']"
-747,['Note added']
+747,"['Education Note', 'Note added']"
 748,['Note added']
 749,['Note added']
 750,"['Travel Tourism', 'Note added']"
 751,['Note added']
-752,['Note added']
+752,"['Economic Development', 'Note added']"
 753,"['Virginia Department', 'Note added']"
 754,"['Authority Note', 'Note added']"
 755,"['Travel Tourism', 'Tourism Site', 'Note added']"
@@ -625,8 +625,8 @@
 770,['Note added']
 771,"['Travel Tourism', 'Tourism Site', 'Note added']"
 772,['Note added']
-775,['Note added']
-777,"['North Carolina', 'Note added']"
+775,"['Service Note', 'Note added']"
+777,"['North Carolina', 'Service Note', 'Note added']"
 778,['Note added']
 779,['Note added']
 780,['Note added']
@@ -644,14 +644,14 @@
 792,['Note added']
 795,['Note added']
 796,"['Extension Note', 'Note added']"
-797,"['Authority Note', 'Note added']"
-799,"['Authority Note', 'Note added']"
+797,"['Economic Development', 'Authority Note', 'Note added']"
+799,"['Economic Development', 'Authority Note', 'Note added']"
 800,"['Authority Note', 'Note added']"
 801,['Note added']
 802,"['Lottery Note', 'Note added']"
 803,"['Lottery Note', 'Note added']"
 804,['Note added']
-805,['Note added']
+805,"['Office Note', 'Note added']"
 806,['Note added']
 808,"['Washington State', 'Note added']"
 809,"['Washington State', 'Note added']"
@@ -668,9 +668,9 @@
 820,"['West Virginia', 'Note added']"
 821,"['West Virginia', 'Board Note', 'Note added']"
 822,"['West Virginia', 'Note added']"
-823,"['West Virginia', 'Note added']"
+823,"['West Virginia', 'Office Note', 'Note added']"
 824,"['Travel Tourism', 'Tourism Site', 'West Virginia', 'Note added']"
 825,"['West Virginia', 'Authority Note', 'Note added']"
 826,"['National Guard', 'Guard Note', 'Note added']"
-827,['Note added']
+827,"['Council Note', 'Note added']"
 828,"['Travel Tourism', 'Tourism Site', 'Note added']"

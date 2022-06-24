@@ -82,4 +82,4 @@ if __name__ == "__main__":
     # print(type(a))
     # print(a)
 
-    get_top_n_grams("3_govt_urls_state_only.csv",50)
+    get_top_n_grams("3_govt_urls_state_only.csv",25)
