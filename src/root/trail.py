@@ -80,11 +80,14 @@ def get_top_n_grams(csv_name, top=20):
     dic_unary = get_sorted_dic(uniary)[0:top]
     dic_binary = get_sorted_dic(binary)[0:top]
     dic_ternary = get_sorted_dic(ternary)[0:top]
-
+   
+    with open("./tests/temp/top.csv", "w") as write_file:
+        file_writer = csv.writer(write_file, delimiter=",")
+        for data in get_sorted_dic(binary):
+            file_writer.writerow(data)
     top_bin = is_in_top(binary, dic_binary, "grams_in_binary")
     top_ter = is_in_top(ternary, dic_ternary, "grams_in_ternary")
-    jpt = defaultdict(list)
-    print(top_bin)
+   
     raw_data = get_data(csv_name)
     data_csv = list()
     for data in raw_data[0:]:
@@ -104,3 +107,5 @@ def get_top_n_grams(csv_name, top=20):
     create_csv([dic_unary, dic_binary, dic_ternary])
 
     return [dic_unary, dic_binary, dic_ternary]
+
+
