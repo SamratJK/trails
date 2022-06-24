@@ -56,7 +56,7 @@ def is_in_top(gram_search,top_gram,which_file):
             if grams in dict(top_gram):
                 value_in.append(grams)
     with open('./tests/temp/'+which_file+'.csv','w') as write_file:
-        file_writer = csv.writer(write_file)
+        file_writer = csv.writer(write_file,delimiter='\n')
         file_writer.writerow(value_in)
 
 def get_top_n_grams(csv_name, top=20):
