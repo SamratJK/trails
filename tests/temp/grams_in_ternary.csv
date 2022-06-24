@@ -1,184 +1,80 @@
-0,"['Travel Tourism Site', 'Travel Tourism Site']"
+0,['Travel Tourism Site']
+1,['See historical snapshot']
+2,"['VIRGINIA service Virginia', 'service Virginia Department']"
+3,"['VIRGINIA service Virginia', 'service Virginia Department']"
 5,['New York State']
-7,['System Note added']
-11,['Extension Note added']
-12,['Extension Note added']
-13,['Authority Note added']
-14,['Corporation Note added']
-15,['Authority Note added']
-18,['Authority Note added']
-19,['Commission Note added']
-20,"['Corporation Note added', 'Corporation Note added']"
 21,['Travel Tourism Site']
-23,['Office Note added']
-29,"['Department Education Note', 'Education Note added']"
 30,['Travel Tourism Site']
-33,['Corporation Note added']
-34,['Commission Note added']
-36,['Board Note added']
-37,"['National Guard Note', 'Guard Note added']"
 38,['Travel Tourism Site']
 42,['Travel Tourism Site']
-44,"['Department Education Note', 'Education Note added']"
-46,['Commission Note added']
-48,['Commission Note added']
-49,['Board Note added']
-54,['Office Note added']
+50,['Arkansas State Board']
+51,['Arkansas State Board']
+52,['Arkansas State Board']
 55,['New York State']
-58,['Examiners Note added']
-59,['Authority Note added']
-60,['Examiners Note added']
 64,['North Carolina Board']
-70,['System Note added']
 86,['Travel Tourism Site']
 98,['Travel Tourism Site']
-101,"['National Guard Note', 'Guard Note added']"
 105,['Travel Tourism Site']
 106,['Travel Tourism Site']
-108,"['Department Education Note', 'Education Note added']"
-123,['Resources Note added']
+124,['Travel tourism site']
 125,['Travel Tourism Site']
-127,['Extension Note added']
-128,['Extension Note added']
-129,['Service Note added']
-130,['Extension Note added']
-131,['Extension Note added']
-132,['Service Note added']
-133,['Service Note added']
-134,['Extension Note added']
-135,['Extension Note added']
-136,['Service Note added']
-138,['Extension Note added']
-140,['Extension Note added']
-148,"['Department Education Note', 'Education Note added']"
-149,['Office Note added']
-153,"['Commission Note added', 'Commission Note added']"
-158,['Services Note added']
-160,"['National Guard Note', 'Guard Note added']"
-161,"['Department Education Note', 'Education Note added']"
-168,"['National Guard Note', 'Guard Note added']"
-169,['Resources Note added']
-170,['Commission Note added']
-171,['Council Note added']
-174,['Commission Note added']
-181,['Office Note added']
-189,['Commission Note added']
-193,['Commission Note added']
-194,"['Department Education Note', 'Education Note added']"
-201,['Lottery Note added']
-203,"['National Guard Note', 'Guard Note added']"
-204,['Lottery Note added']
-208,['Lottery Note added']
+126,['Travel tourism site']
+164,['Georgia State Defense']
+165,"['Georgia State Defense', 'State Defense Force']"
+166,"['Georgia State Defense', 'State Defense Force']"
 209,['Travel Tourism Site']
-214,"['Development Authority Note', 'Authority Note added']"
-216,"['National Guard Note', 'Guard Note added']"
-218,['The North Carolina']
-227,"['National Guard Note', 'Guard Note added']"
+218,"['The North Carolina', 'North Carolina Division']"
+220,"['State North Carolina', 'North Carolina Division']"
 230,['Travel Tourism Site']
-231,['Authority Note added']
-239,['Lottery Note added']
-244,['Board Note added']
-246,['Lottery Note added']
-251,"['Louisiana State Board', 'Examiners Note added']"
-252,"['Louisiana State Board', 'Examiners Note added']"
-255,['Council Note added']
-257,['Board Note added']
-258,['Board Note added']
-259,['Board Note added']
-261,"['Louisiana State Board', 'Examiners Note added']"
-270,"['Development Authority Note', 'Authority Note added']"
-271,['Corporation Note added']
-273,['Commission Note added']
+251,['Louisiana State Board']
+252,['Louisiana State Board']
+261,['Louisiana State Board']
 274,['Travel Tourism Site']
-275,['Examiners Note added']
-277,['Examiners Note added']
-278,['Louisiana State Board']
-279,['Louisiana State Board']
-280,['Louisiana State Board']
-282,"['Louisiana State Board', 'Examiners Note added']"
-294,['Council Note added']
-296,['Lottery Note added']
+278,"['Louisiana State Board', 'State Board Examiners']"
+279,"['Louisiana State Board', 'State Board Examiners']"
+280,"['Louisiana State Board', 'State Board Examiners']"
+282,['Louisiana State Board']
 297,['Travel Tourism Site']
-303,['Lottery Note added']
-304,['Authority Note added']
-306,['System Note added']
-308,['Authority Note added']
-309,['Office Note added']
 310,['Travel Tourism Site']
-312,['Lottery Note added']
-315,"['National Guard Note', 'Guard Note added']"
-317,"['Development Authority Note', 'Authority Note added']"
-322,"['National Guard Note', 'Guard Note added']"
-323,['Lottery Note added']
-326,['Lottery Note added']
-331,['Commission Note added']
-333,['Agency Note added']
-334,['Corporation Note added']
-335,['Extension Note added']
-336,['Extension Note added']
-337,['Extension Note added']
-340,['Lottery Note added']
-342,['Services Note added']
 346,['Travel Tourism Site']
-350,['Lottery Note added']
-351,['Office Note added']
-352,['Commission Note added']
+355,['North Carolina Division']
 356,['The North Carolina']
-357,['System Note added']
-362,['Council Note added']
 365,['North Carolina Board']
-366,['Examiners Note added']
 367,['North Carolina Board']
-371,['Services Note added']
-372,['Examiners Note added']
+368,['NC Board Examiners']
+369,['NC Board Examiners']
 373,"['The North Carolina', 'North Carolina Board']"
 374,"['The North Carolina', 'North Carolina Board']"
 375,['The North Carolina']
+376,['NC Board Examiners']
 380,"['The North Carolina', 'North Carolina Board']"
-386,"['Board Note added', 'Board Note added']"
 387,['The North Carolina']
-389,"['North Carolina Board', 'Examiners Note added']"
-397,['Resources Note added']
-398,['Examiners Note added']
-404,['Education Note added']
-407,['Council Note added']
-409,['The North Carolina']
-410,['The North Carolina']
-415,['Office Note added']
+389,['North Carolina Board']
+393,['North Carolina Office']
+394,['North Carolina Department']
+398,"['North Carolina State', 'Carolina State Board']"
+405,['North Carolina Department']
+409,"['The North Carolina', 'North Carolina Office']"
+410,"['The North Carolina', 'North Carolina Forest']"
+420,['North Carolina Forest']
+421,"['North Carolina Forest', 'See historical snapshot']"
 425,['The North Carolina']
-427,['Services Note added']
-429,['Agency Note added']
-430,['Board Note added']
-432,['Services Note added']
-435,"['The North Carolina', 'Board Note added']"
-444,"['The North Carolina', 'Board Note added']"
-445,['Services Note added']
-446,['System Note added']
-448,['Board Note added']
+435,['The North Carolina']
+439,"['North Carolina State', 'Carolina State Board', 'State Board Examiners']"
+444,['The North Carolina']
+445,"['State North Carolina', 'North Carolina Office']"
 454,['The North Carolina']
-465,"['The North Carolina', 'North Carolina Board', 'Examiners Note added']"
-473,['Authority Note added']
-474,['Examiners Note added']
-481,['The North Carolina']
-486,['Extension Note added']
-490,['Office Note added']
-495,['Board Note added']
-497,['Resources Note added']
-498,['Resources Note added']
-502,['Resources Note added']
+456,['North Carolina Office']
+460,"['North Carolina State', 'Carolina State Board', 'State Board Examiners']"
+465,"['The North Carolina', 'North Carolina Board']"
+467,['North Carolina Division']
+481,"['The North Carolina', 'North Carolina State', 'North Carolina Department']"
+490,['State North Carolina']
+494,['North Carolina Department']
+498,['North Carolina Division']
+502,['North Carolina Department']
 507,['Travel Tourism Site']
-508,['Board Note added']
-509,['Council Note added']
-512,['Board Note added']
-513,['Commission Note added']
-515,['Commission Note added']
-516,['Board Note added']
-518,['Lottery Note added']
 521,['Travel Tourism Site']
-523,['Service Note added']
-526,['Commission Note added']
-528,"['Development Authority Note', 'Authority Note added']"
-533,['Lottery Note added']
 538,['New York State']
 540,['New York State']
 541,['New York State']
@@ -186,67 +82,26 @@
 543,['New York State']
 544,['New York State']
 545,['New York State']
-546,['Commission Note added']
-549,['Council Note added']
-550,['Lottery Note added']
-560,['Commission Note added']
-562,['Lottery Note added']
-566,['System Note added']
-568,['Service Note added']
-571,['Authority Note added']
-577,['Education Note added']
-578,['Authority Note added']
-579,['Commission Note added']
-580,['Council Note added']
-581,['Agency Note added']
-582,['Authority Note added']
-583,['Agency Note added']
-585,['Authority Note added']
-587,['Commission Note added']
-594,['Commission Note added']
-595,['Examiners Note added']
-596,"['Department Education Note', 'Education Note added']"
-597,['Agency Note added']
-599,['Lottery Note added']
-600,['Commission Note added']
-601,['Authority Note added']
-615,['Lottery Note added']
-620,"['National Guard Note', 'Guard Note added']"
-631,['Commission Note added']
-635,"['Development Authority Note', 'Authority Note added']"
-640,['Authority Note added']
-648,['Authority Note added']
-692,['Commission Note added']
-695,['Agency Note added']
-699,['Agency Note added']
-701,"['National Guard Note', 'Guard Note added']"
+568,['North Carolina Division']
+575,"['Georgia State Defense', 'State Defense Force']"
+623,['Independent Living Council']
+624,['Independent Living Council']
+628,['Independent Living Council']
+641,['North Carolina State']
 704,['Travel Tourism Site']
 705,['Travel Tourism Site']
 706,['Travel Tourism Site']
 707,['Travel Tourism Sites']
 708,['Travel Tourism Sites']
+709,['Travel Tourism Site']
 710,['Travel Tourism Sites']
 711,['Travel Tourism Sites']
 712,['Travel Tourism Sites']
-714,['Commission Note added']
-715,['Authority Note added']
-716,['Lottery Note added']
-718,['Service Note added']
-719,['Extension Note added']
-721,"['Development Authority Note', 'Authority Note added']"
-722,['Extension Note added']
-724,['Service Note added']
-729,"['Services Note added', 'Services Note added']"
-733,['Lottery Note added']
-734,['Council Note added']
-735,['System Note added']
-740,['Council Note added']
-743,"['Development Authority Note', 'Authority Note added']"
-744,['Agency Note added']
-745,['Services Note added']
-747,"['Department Education Note', 'Education Note added']"
+720,['US Virgin Islands']
+721,['US Virgin Islands']
+742,['Travel Tourism Site']
+749,['US Virgin Islands']
 750,['Travel Tourism Sites']
-754,['Authority Note added']
 755,['Travel Tourism Site']
 757,['Travel Tourism Sites']
 758,['Travel Tourism Site']
@@ -261,35 +116,12 @@
 767,['Travel Tourism Site']
 768,['Travel Tourism Site']
 769,['Travel Tourism Site']
+770,['Travel tourism site']
 771,['Travel Tourism Site']
-775,['Service Note added']
-777,['Service Note added']
-781,"['National Guard Note', 'Guard Note added']"
-782,['Lottery Note added']
-783,['Commission Note added']
-784,['Commission Note added']
-785,['Lottery Note added']
-786,['Commission Note added']
 787,['Travel Tourism Site']
-788,"['National Guard Note', 'Guard Note added']"
-789,"['National Guard Note', 'Guard Note added']"
-790,"['National Guard Note', 'Guard Note added']"
-791,['Commission Note added']
-796,['Extension Note added']
-797,['Authority Note added']
-799,"['Development Authority Note', 'Authority Note added']"
-800,['Authority Note added']
-802,['Lottery Note added']
-803,['Lottery Note added']
-805,['Office Note added']
-810,['Commission Note added']
-815,['Resources Note added']
-817,['Commission Note added']
-819,['Lottery Note added']
-821,['Board Note added']
-823,['Office Note added']
+812,['West Virginia Department']
+813,['West Virginia Department']
+815,['West Virginia Department']
+818,['West Virginia Department']
 824,['Travel Tourism Site']
-825,"['Development Authority Note', 'Authority Note added']"
-826,"['National Guard Note', 'Guard Note added']"
-827,['Council Note added']
 828,['Travel Tourism Site']

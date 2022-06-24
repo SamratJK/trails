@@ -1,3 +1,4 @@
+from numpy import binary_repr
 from urllib3 import Retry
 from root.n_gram import generate_n_gram
 from collections import defaultdict
@@ -51,41 +52,35 @@ def create_csv(top_gram):
 
 def is_in_top(gram_search,top_gram_bin,which_file):
     value_in = defaultdict(list)
-    for value in gram_search:
+   
+    for index,value in enumerate(gram_search):
         for grams in value:
             if grams in dict(top_gram_bin):
-                value_in[str(gram_search.index(value))].append(grams)
+               
+                value_in[str(index)].append(grams)
+                
 
   
     with open('./tests/temp/'+which_file+'.csv','w') as write_file:
         file_writer = csv.writer(write_file,delimiter=',')
         for key,data in value_in.items():
             file_writer.writerow((key,data))
-
     return value_in
 
 
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
     
-
     dic_unary = get_sorted_dic(uniary)[
        0:top
-    ] + get_sorted_dic(uniary)[
-       -top:
     ]
     dic_binary = get_sorted_dic(binary)[
        0:top
-    ]+ get_sorted_dic(uniary)[
-       -top:
     ]
     dic_ternary = get_sorted_dic(ternary)[
         0:top   
-    ]+ get_sorted_dic(uniary)[
-       -top:
     ]
-    print(dic_binary)
-    print(dic_ternary)
+
     top_bin = is_in_top(binary,dic_binary,'grams_in_binary')
     top_ter = is_in_top(ternary,dic_ternary,'grams_in_ternary')
     jpt = defaultdict(list)
@@ -100,13 +95,15 @@ def get_top_n_grams(csv_name, top=20):
         tmp = top_bin[str(i)] + top_ter[str(i)]
         jpt[str(i)].append(', '.join(tmp))
         jpt[str(i)].append(data_csv[i])
-
+    
     with open('./tests/temp/patter.csv','w') as write_file:
        file_writer = csv.writer(write_file,delimiter=',')
        for key,data in jpt.items():
            file_writer.writerow(data)
            
     create_csv([dic_unary, dic_binary, dic_ternary])
-    print(jpt)
+
 
     return [dic_unary, dic_binary, dic_ternary]
+
+
