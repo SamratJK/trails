@@ -1,6 +1,6 @@
 
 from root.n_gram import generate_n_gram,\
-                        remove_punctuation, get_words
+                        remove_punctuation, get_ngrams
 from collections import defaultdict
 from root.parser_table import parser,ratio_and_distance
 import csv
@@ -35,6 +35,14 @@ def get_gram_from_csv(csv_name, result=0):
         n_gram_list_u.append(data_u)
         n_gram_list_b.append(data_b)
         n_gram_list_t.append(data_t)
+    with open("bigram_list.csv",'w') as file:
+        file_w = csv.writer(file, delimiter=",")
+        for i in n_gram_list_b:
+            file_w.writerow(i)
+    with open("tri_list.csv",'w') as file:
+        file_w = csv.writer(file, delimiter=",")
+        for i in n_gram_list_t:
+            file_w.writerow(" ".join(i))
 
     return [n_gram_list_u, n_gram_list_b, n_gram_list_t]
 
@@ -53,7 +61,6 @@ def get_sorted_dic(ngram_dic):
 
 
 def create_csv(top_gram):
-
     with open("./tests/temp/data_set.csv", "w") as write_file:
         file_writer = csv.writer(
             write_file, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL
@@ -79,40 +86,34 @@ def is_in_top(gram_search, top_gram_bin, which_file):
     return value_in
 
 
-def get_note_without_city_name(sentence):
+def get_note_without_city_name(sentence,):
     sentence = remove_punctuation(sentence)
+    words = sentence.split("--")
+    
+    bigram = get_ngrams(words[0].split(" "),2)
+    trigram = get_ngrams(words[0].split(" "),3)
 
     with open("data.txt", "r") as myfile:
         data = "".join([line for line in myfile.readlines()])
+    
     city = list(parser(data)["State"])
-    city.reverse()
+    city = set(city)
 
-    words = get_words(sentence)
-    get_city = " "
+    words = set(sentence.split(" "))
+    city_return = city & set(trigram)
    
-    for name in city:
-        get_name = name.split(" ")
-        
-        
-        if get_name[0] in words:
-            if len(get_name) == 1:
-               
-                return name
-            if len(get_name) > 1 and get_name[1] in words:
-            
-                return name
-            else:
-                continue
-        
-        if "District" in words and "Columbia" in words:
-            return "District of Columbia"
+    if not city_return:
+        city_return = city & set(bigram)
 
-    return get_city
+        if not city_return:
+            city_return = words & city 
+            
+    return list(city_return)
 
 
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
-
+    
     dic_unary = get_sorted_dic(uniary)[0:top]
     dic_binary = get_sorted_dic(binary)[0:top]
     dic_ternary = get_sorted_dic(ternary)[0:top]
@@ -131,15 +132,16 @@ def get_top_n_grams(csv_name, top=20):
     raw_data = get_data(csv_name)
     data_csv = list()
     notes_csv = list()
-    for data in raw_data[0:]:
+    for index, data in enumerate(raw_data[0:]):
         if raw_data.index(data) == 0:
             continue
         data_csv.append(data[5])
         notes_csv.append(get_note_without_city_name(data[5]))
+      
     tmp = []
     for i in range(0, len(data_csv)):
         a = top_bin[str(i)] + top_ter[str(i)]
-        tmp.append((",".join(a), "".join(notes_csv[i]), data_csv[i]))
+        tmp.append((",".join(a), " ".join(notes_csv[i]), data_csv[i]))
 
     with open("./tests/temp/patter.csv", "w") as write_file:
         file_writer = csv.writer(write_file, delimiter=",")
