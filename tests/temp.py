@@ -47,4 +47,4 @@
 # #     for i in a:
 # #         for j in i:
 # #             file_writer.writerow(j)
-from root.parser_table import parser 
+from root.parser_table import parser

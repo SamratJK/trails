@@ -21,12 +21,11 @@ def parser(data):
     df = df.sort_values("Postal Code")
     df.to_csv("output.csv")
 
-    return df 
+    return df
 
 
 if __name__ == "__main__":
     with open("data.txt", "r") as myfile:
         data = "".join([line for line in myfile.readlines()])
-       
 
     parser(data)

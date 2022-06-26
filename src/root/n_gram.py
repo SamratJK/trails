@@ -28,19 +28,20 @@ def get_ngrams(words, ngrams):
     return n_grams
 
 
-def remove_state_name(words, city):
-
-    pass
-
-
-def generate_n_gram(sentence, city=None):
-
-    sentence = remove_punctuation(sentence)
+def get_words(sentence):
     words = [
         word
         for word in sentence.split(" ")
         if word not in set(stopwords.words("english")) and word != ""
     ]
+
+    return words
+
+
+def generate_n_gram(sentence, city=None):
+
+    sentence = remove_punctuation(sentence)
+    words = get_words(sentence)
     if city:
         get_name = city.split(" ")
         for name in get_name:

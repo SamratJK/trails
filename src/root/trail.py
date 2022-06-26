@@ -2,7 +2,7 @@ from ntpath import join
 from os import get_terminal_size
 from numpy import binary_repr
 from urllib3 import Retry
-from root.n_gram import generate_n_gram, remove_punctuation
+from root.n_gram import generate_n_gram, remove_punctuation, get_words
 from collections import defaultdict
 from root.parser_table import parser
 
@@ -81,26 +81,25 @@ def is_in_top(gram_search, top_gram_bin, which_file):
 
 def get_note_without_city_name(sentence):
     sentence = remove_punctuation(sentence)
+
     with open("data.txt", "r") as myfile:
         data = "".join([line for line in myfile.readlines()])
-
-
-    city = list(parser(data)['State'])
+    city = list(parser(data)["State"])
     city[8] = "Columbia"
-   
-    words = sentence.split(" ")
+
+    words = get_words(sentence)
     get_city = " "
-    
+
     for name in city:
         get_name = name.split(" ")
         if get_name[0] in words:
-            if len(get_name) ==1:
-                return name 
-            if len(get_name)>1 and get_name[1] in words:
+            if len(get_name) == 1:
+                return name
+            if len(get_name) > 1 and get_name[1] in words:
                 return name
             else:
                 continue
-    
+
     return get_city
 
     # if city:
