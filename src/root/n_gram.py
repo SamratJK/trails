@@ -27,13 +27,13 @@ def get_ngrams(words, ngrams):
 
     return n_grams
 
-def remove_state_name(words,city):
-    
+
+def remove_state_name(words, city):
+
     pass
 
 
-
-def generate_n_gram(sentence,city=None):
+def generate_n_gram(sentence, city=None):
 
     sentence = remove_punctuation(sentence)
     words = [
@@ -46,5 +46,5 @@ def generate_n_gram(sentence,city=None):
         for name in get_name:
             if name in words:
                 words.remove(name)
-  
+
     return [words, get_ngrams(words, 2), get_ngrams(words, 3)]
