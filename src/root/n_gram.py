@@ -27,6 +27,11 @@ def get_ngrams(words, ngrams):
 
     return n_grams
 
+def remove_state_name(words,city):
+    
+    pass
+
+
 
 def generate_n_gram(sentence,city=None):
 

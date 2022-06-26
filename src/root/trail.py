@@ -12,6 +12,7 @@ def get_data(csv_name):
     with open(csv_name, "r") as read_file:
         for line in read_file.readlines():
             raw_data.append(line.split(","))
+    print(raw_data)
     return raw_data
 
 
@@ -73,6 +74,16 @@ def is_in_top(gram_search, top_gram_bin, which_file):
             file_writer.writerow((key, data))
     return value_in
 
+def get_note_without_city_name(sentence,city):
+    words = list(set(sentence.split(" ")))
+    if city:
+        get_name = city.split(" ")
+        for name in get_name:
+            if name in words:
+                words.remove(name)
+    
+    return words
+  
 
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
@@ -94,14 +105,16 @@ def get_top_n_grams(csv_name, top=20):
    
     raw_data = get_data(csv_name)
     data_csv = list()
+    notes_csv = list()
     for data in raw_data[0:]:
         if raw_data.index(data) == 0:
             continue
         data_csv.append(data[5])
+        notes_csv.append(get_note_without_city_name(data[5],data[3]))
     tmp = []
     for i in range(0, len(data_csv)):
         a = top_bin[str(i)] + top_ter[str(i)]
-        tmp.append((",".join(a), data_csv[i]))
+        tmp.append((",".join(a), data_csv[i]," ".join(notes_csv[i])))
 
     with open("./tests/temp/patter.csv", "w") as write_file:
         file_writer = csv.writer(write_file, delimiter=",")
@@ -113,3 +126,14 @@ def get_top_n_grams(csv_name, top=20):
     return [dic_unary, dic_binary, dic_ternary]
 
 
+if __name__ == "__main__":
+    # data = "Technopolis plans to develop in stages an area of no less than 100,000 square meters in order to host companies working in computer technologies and telecommunications the statement said"
+    # test_uni_gram()
+    # test_bi_gram(data)
+    # test_tri_gram(data)
+
+    # (a,b,c) = test_get_top_n_gram("3_govt_urls_state_only.csv")
+    # print(type(a))
+    # print(a)
+
+    get_top_n_grams("3_govt_urls_state_only.csv", 25)

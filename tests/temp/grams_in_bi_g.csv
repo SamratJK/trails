@@ -1,0 +1,715 @@
+0,"['Travel', 'Tourism', 'Site']"
+1,"['Travel Tourism', 'Tourism Site']"
+2,['Travel Tourism Site']
+6,"['Department', 'Council']"
+9,"['Department', 'Council']"
+15,"['State', 'Department']"
+18,['State']
+21,['Extension']
+24,['Extension']
+30,"['Department', 'Health']"
+33,"['University', 'Extension']"
+36,['Extension']
+39,['Authority']
+45,"['Development', 'Authority']"
+48,"['Department', 'Division']"
+51,['Board']
+54,['Authority']
+57,['Commission']
+63,"['Travel', 'Tourism', 'Site']"
+64,"['Travel Tourism', 'Tourism Site']"
+65,['Travel Tourism Site']
+66,['National']
+69,['Office']
+81,"['State', 'Board', 'Examiners', 'state', 'Commission']"
+82,['State Board']
+84,['Board']
+87,"['State', 'Department']"
+90,"['Travel', 'Tourism', 'Site']"
+91,"['Travel Tourism', 'Tourism Site']"
+92,['Travel Tourism Site']
+102,['Commission']
+105,"['State', 'Division', 'Department']"
+108,['Board']
+111,['National']
+114,"['Travel', 'Tourism', 'Site']"
+115,"['Travel Tourism', 'Tourism Site']"
+116,['Travel Tourism Site']
+123,['Commission']
+126,"['Travel', 'Tourism', 'Site']"
+127,"['Travel Tourism', 'Tourism Site']"
+128,['Travel Tourism Site']
+132,['Department']
+135,['Development']
+138,['Commission']
+144,['Commission']
+147,"['State', 'Board']"
+150,"['State', 'Board']"
+151,['State Board']
+153,"['State', 'Board']"
+154,['State Board']
+156,"['State', 'Board']"
+157,['State Board']
+159,"['State', 'Authority']"
+162,['Office']
+165,"['State', 'Site']"
+168,['State']
+171,"['Authority', 'The']"
+174,"['Board', 'Health', 'Examiners']"
+177,['Authority']
+180,"['State', 'Board', 'Examiners']"
+181,['State Board']
+183,['State']
+192,['Board']
+195,['NC']
+198,['State']
+201,['National']
+207,['State']
+210,['State']
+213,['State']
+219,['Health']
+222,['Extension']
+225,['State']
+237,['Health']
+240,"['Department', 'Development']"
+252,['Commission']
+258,"['Travel', 'Tourism', 'Site']"
+259,"['Travel Tourism', 'Tourism Site']"
+260,['Travel Tourism Site']
+276,['Board']
+282,['State']
+285,['University']
+291,['State']
+294,"['Travel', 'Tourism', 'Site']"
+295,"['Travel Tourism', 'Tourism Site']"
+296,['Travel Tourism Site']
+300,['State']
+303,['National']
+306,['Division']
+312,"['The', 'State']"
+315,"['Travel', 'Tourism', 'Site']"
+316,"['Travel Tourism', 'Tourism Site']"
+317,['Travel Tourism Site']
+318,"['Travel', 'Tourism', 'Site']"
+319,"['Travel Tourism', 'Tourism Site']"
+320,['Travel Tourism Site']
+321,['Department']
+324,['Department']
+327,['NC']
+333,['National']
+339,['Board']
+342,['Board']
+345,['Health']
+348,"['Office', 'State']"
+351,"['State', 'University']"
+354,"['The', 'Division']"
+357,"['Office', 'Tourism']"
+360,['NC']
+366,['Council']
+372,"['Travel', 'State']"
+375,"['Travel', 'Tourism', 'Site']"
+376,"['Travel Tourism', 'Tourism Site']"
+377,['Travel Tourism Site']
+378,"['Travel', 'state', 'Tourism']"
+381,['Extension']
+384,"['State', 'University', 'Extension']"
+387,"['University', 'Extension']"
+390,"['State', 'University', 'Extension']"
+393,"['University', 'Extension']"
+396,['Extension']
+399,"['State', 'University', 'Extension']"
+402,"['State', 'Extension']"
+405,['Extension']
+408,"['University', 'Extension']"
+414,"['University', 'Extension']"
+420,"['University', 'Extension']"
+423,"['State', 'University']"
+426,['State']
+429,"['The', 'Commission', 'The', 'Commission']"
+435,['Commission']
+441,['The']
+444,['Department']
+447,['Office']
+450,['Office']
+453,['Office']
+456,['National']
+459,['Commission']
+465,['Health']
+468,"['The', 'state']"
+474,['Department']
+477,['National']
+480,['National']
+483,"['State', 'Department']"
+492,['State']
+495,['State']
+498,['State']
+504,['National']
+510,"['The', 'Commission']"
+513,"['The', 'Council']"
+519,['Office']
+522,['Commission']
+525,['National']
+528,['Commission']
+531,"['Tourism', 'Authority']"
+537,['NC']
+540,['NC']
+543,"['Division', 'Office']"
+546,['Office']
+564,['Office']
+567,['Commission']
+576,['Department']
+579,['Commission']
+582,"['State', 'Department']"
+594,['State']
+597,"['Development', 'state', 'State']"
+600,['NC']
+603,['Lottery']
+606,"['University', 'Extension']"
+609,['National']
+612,['Lottery']
+621,"['Office', 'State']"
+624,['Lottery']
+627,"['Travel', 'Tourism', 'Site']"
+628,"['Travel Tourism', 'Tourism Site']"
+629,['Travel Tourism Site']
+630,['Health']
+633,['state']
+636,"['Development', 'Authority']"
+639,['Board']
+642,"['Development', 'Authority']"
+648,['National']
+651,['State']
+654,"['The', 'Division', 'Health']"
+660,"['State', 'Division', 'State']"
+663,"['Department', 'Development']"
+669,"['Commission', 'The', 'Commission']"
+681,['National']
+687,['State']
+690,"['Travel', 'Tourism', 'Site']"
+691,"['Travel Tourism', 'Tourism Site']"
+692,['Travel Tourism Site']
+693,['Authority']
+699,"['State', 'Board']"
+700,['State Board']
+702,"['State', 'Board']"
+703,['State Board']
+708,['Department']
+714,['State']
+717,['Lottery']
+720,['Department']
+723,"['Office', 'State']"
+726,['Department']
+732,['Board']
+738,['Lottery']
+744,"['Board', 'Examiners']"
+747,['Board']
+750,['Board']
+753,"['State', 'Board', 'Examiners']"
+754,['State Board']
+756,"['State', 'Board', 'Examiners']"
+757,['State Board']
+759,"['The', 'Council']"
+762,"['Board', 'Examiners']"
+765,['Council']
+768,['Commission']
+771,['Board']
+774,['Board']
+777,['Board']
+783,"['State', 'Board', 'Examiners']"
+784,['State Board']
+786,['Commission']
+789,"['Board', 'Examiners']"
+801,['Department']
+810,"['Development', 'Authority']"
+813,['Lottery']
+816,['Board']
+819,['Commission']
+822,"['Travel', 'Tourism', 'Site']"
+823,"['Travel Tourism', 'Tourism Site']"
+824,['Travel Tourism Site']
+825,"['Board', 'Examiners']"
+831,"['Board', 'Examiners']"
+834,"['State', 'Board', 'Examiners']"
+835,['State Board']
+837,"['State', 'Board', 'Examiners']"
+838,['State Board']
+840,"['State', 'Board', 'Examiners']"
+841,['State Board']
+843,['Board']
+846,"['State', 'Board', 'Examiners']"
+847,['State Board']
+852,['Board']
+855,['Board']
+867,['state']
+870,"['State', 'Lottery']"
+882,['Council']
+888,"['State', 'Lottery']"
+891,"['Travel', 'Tourism', 'Site']"
+892,"['Travel Tourism', 'Tourism Site']"
+893,['Travel Tourism Site']
+903,"['Department', 'Development']"
+909,['Lottery']
+912,['Authority']
+915,['Department']
+924,"['Health', 'Authority']"
+927,"['Health', 'Office']"
+930,"['Travel', 'Tourism', 'Site']"
+931,"['Travel Tourism', 'Tourism Site']"
+932,['Travel Tourism Site']
+936,['Lottery']
+939,['State']
+942,['Lottery']
+945,['National']
+948,['National']
+951,"['Development', 'Authority']"
+954,['State']
+966,['National']
+969,['Lottery']
+972,"['The', 'State']"
+978,['Lottery']
+981,['State']
+984,['State']
+990,"['State', 'Board']"
+991,['State Board']
+993,['Commission']
+996,"['State', 'Commission']"
+1005,"['State', 'University', 'Extension']"
+1008,"['State', 'University', 'Extension']"
+1011,"['State', 'University', 'Extension']"
+1014,['Authority']
+1020,['Lottery']
+1023,"['The', 'state', 'State']"
+1026,['Department']
+1029,['Office']
+1032,['Health']
+1035,['Commission']
+1038,"['Travel', 'Tourism', 'Site']"
+1039,"['Travel Tourism', 'Tourism Site']"
+1040,['Travel Tourism Site']
+1041,['National']
+1044,['NC']
+1047,"['NC', 'Council']"
+1050,['Lottery']
+1053,"['NC', 'State', 'Office']"
+1056,['Commission']
+1059,"['NC', 'Development']"
+1065,['Division']
+1068,['The']
+1071,['NC']
+1074,['NC']
+1077,['NC']
+1080,['NC']
+1083,['NC']
+1086,['Council']
+1089,['NC']
+1092,"['NC', 'Office', 'State']"
+1095,['Board']
+1098,"['NC', 'Board', 'Examiners']"
+1101,['Board']
+1104,"['NC', 'Board', 'Examiners']"
+1107,"['NC', 'Board', 'Examiners']"
+1110,"['NC', 'Board']"
+1113,"['NC', 'Board']"
+1116,"['NC', 'Board', 'Examiners']"
+1119,"['The', 'Board']"
+1122,"['The', 'Board']"
+1125,['The']
+1128,"['NC', 'Board', 'Examiners']"
+1131,"['NC', 'Board']"
+1134,"['NC', 'Board']"
+1137,"['NC', 'Board']"
+1140,"['The', 'Board']"
+1143,"['The', 'Board', 'Examiners', 'State']"
+1146,['NC']
+1152,['NC']
+1155,['Division']
+1158,['Board']
+1161,['The']
+1164,['NC']
+1167,"['Board', 'Examiners']"
+1173,"['NC', 'Division']"
+1176,"['NC', 'National']"
+1179,['Office']
+1182,['Department']
+1188,['NC']
+1191,"['NC', 'Department']"
+1194,"['State', 'Board', 'Examiners']"
+1195,['State Board']
+1200,"['The', 'NC', 'Office']"
+1203,"['NC', 'Department']"
+1206,['Division']
+1209,"['NC', 'Commission']"
+1212,"['NC', 'Division']"
+1215,['Department']
+1221,['Council']
+1224,"['NC', 'Division']"
+1227,"['The', 'Office']"
+1230,"['The', 'State']"
+1233,['Division']
+1239,['NC']
+1242,['Health']
+1245,"['NC', 'Office']"
+1251,['Division']
+1254,['NC']
+1257,['NC']
+1266,['NC']
+1269,['State']
+1275,['The']
+1278,['NC']
+1281,"['NC', 'Health']"
+1284,['NC']
+1287,['NC']
+1290,['Board']
+1293,['NC']
+1296,['Office']
+1299,['NC']
+1302,['NC']
+1305,"['The', 'Board']"
+1308,"['The', 'State']"
+1311,['NC']
+1314,['NC']
+1317,"['State', 'Board', 'Examiners']"
+1318,['State Board']
+1320,"['NC', 'State', 'NC', 'NC']"
+1323,['NC']
+1332,"['The', 'Board']"
+1335,"['State', 'Office']"
+1344,"['NC', 'Board']"
+1347,"['NC', 'Division']"
+1350,"['NC', 'Office', 'Health', 'Health']"
+1353,['NC']
+1356,"['The', 'NC', 'Health']"
+1359,['NC']
+1362,['The']
+1368,['Office']
+1371,['NC']
+1374,['NC']
+1377,['NC']
+1380,"['State', 'Board', 'Examiners']"
+1381,['State Board']
+1383,"['NC', 'NC']"
+1386,['NC']
+1389,['NC']
+1395,"['The', 'Board', 'Examiners']"
+1401,"['Division', 'Health']"
+1410,"['NC', 'Site']"
+1413,['NC']
+1419,['Authority']
+1422,"['NC', 'State', 'Board', 'Health', 'Examiners']"
+1423,['State Board']
+1431,['NC']
+1434,"['NC', 'State']"
+1437,['Health']
+1443,"['The', 'State', 'NC', 'NC', 'Division', 'Department', 'NC']"
+1449,['The']
+1452,"['NC', 'state']"
+1455,['NC']
+1458,"['NC', 'State', 'Extension']"
+1461,['Board']
+1464,['NC']
+1470,"['State', 'Office']"
+1476,"['NC', 'Office', 'State']"
+1479,['NC']
+1482,"['Department', 'State']"
+1485,['Board']
+1491,"['NC', 'Division']"
+1494,['Division']
+1497,['Commission']
+1503,"['NC', 'NC']"
+1506,"['NC', 'Department']"
+1512,['Department']
+1515,['Department']
+1521,"['Travel', 'Tourism', 'Site']"
+1522,"['Travel Tourism', 'Tourism Site']"
+1523,['Travel Tourism Site']
+1524,['Board']
+1527,['Council']
+1533,"['Council', 'The', 'Council', 'State']"
+1536,['Board']
+1539,['Commission']
+1542,['State']
+1545,"['State', 'Commission']"
+1548,['Board']
+1551,"['Department', 'Development']"
+1554,['Lottery']
+1557,['Department']
+1560,['The']
+1563,"['Travel', 'Tourism', 'Site']"
+1564,"['Travel Tourism', 'Tourism Site']"
+1565,['Travel Tourism Site']
+1566,"['Department', 'Development']"
+1578,"['Lottery', 'Commission']"
+1581,['State']
+1584,"['Development', 'Authority']"
+1587,['Division']
+1590,['State']
+1596,"['Department', 'Development']"
+1599,['Lottery']
+1602,['Health']
+1611,['Division']
+1614,['State']
+1620,"['State', 'Council']"
+1623,"['State', 'state']"
+1626,['State']
+1629,['State']
+1632,['State']
+1635,['State']
+1638,['Commission']
+1641,['Office']
+1647,['Council']
+1650,['Lottery']
+1671,['State']
+1677,['Office']
+1680,['Commission']
+1683,['Office']
+1686,['Lottery']
+1689,['State']
+1692,['The']
+1695,"['Office', 'State']"
+1698,['State']
+1701,"['Office', 'State']"
+1704,['Division']
+1713,['Authority']
+1719,['National']
+1725,['State']
+1731,['State']
+1734,['Authority']
+1737,['Commission']
+1740,"['Health', 'Council']"
+1746,['Authority']
+1755,['Authority']
+1758,['The']
+1761,"['State', 'Commission']"
+1764,['Commission']
+1773,['State']
+1776,['NC']
+1782,['Commission']
+1785,"['The', 'State', 'Board', 'Examiners']"
+1786,['State Board']
+1788,"['Division', 'Department']"
+1797,['Lottery']
+1800,['Commission']
+1803,['Authority']
+1806,['Office']
+1812,"['NC', 'Site']"
+1815,['The']
+1821,"['Office', 'State']"
+1824,['NC']
+1827,"['State', 'Board']"
+1828,['State Board']
+1830,"['State', 'Board']"
+1831,['State Board']
+1833,"['State', 'Authority']"
+1845,['Lottery']
+1848,['Division']
+1860,['National']
+1863,"['The', 'State', 'Council']"
+1869,['Council']
+1872,['Council']
+1875,['The']
+1884,['Council']
+1887,['state']
+1890,['Department']
+1893,['Commission']
+1896,['State']
+1902,['Department']
+1905,"['Development', 'Authority']"
+1917,['Department']
+1920,"['State', 'Authority']"
+1923,"['State', 'Health', 'State']"
+1929,"['State', 'Health']"
+1935,"['NC', 'State']"
+1944,"['State', 'Authority']"
+1947,['Commission']
+1956,['state']
+1959,['state']
+1962,['State']
+1965,['state']
+1968,['state']
+1971,['state']
+1974,['state']
+1977,['State']
+1980,['State']
+1986,['State']
+1989,['state']
+1995,['State']
+1998,['State']
+2001,"['State', 'state']"
+2004,['state']
+2007,['state']
+2010,['State']
+2013,['State']
+2016,['state']
+2019,['State']
+2022,['state']
+2025,['State']
+2028,['State']
+2031,['State']
+2034,['State']
+2037,['State']
+2040,['State']
+2046,['The']
+2049,['State']
+2052,['State']
+2058,['State']
+2061,['State']
+2067,"['NC', 'Division']"
+2070,['NC']
+2076,['Commission']
+2079,['State']
+2085,['Development']
+2100,['Lottery']
+2103,['National']
+2112,"['Travel', 'Tourism', 'Site']"
+2113,"['Travel Tourism', 'Tourism Site']"
+2114,['Travel Tourism Site']
+2115,"['Travel', 'Tourism', 'Site']"
+2116,"['Travel Tourism', 'Tourism Site']"
+2117,['Travel Tourism Site']
+2118,"['Travel', 'Tourism', 'Site']"
+2119,"['Travel Tourism', 'Tourism Site']"
+2120,['Travel Tourism Site']
+2121,"['Travel', 'Tourism']"
+2122,['Travel Tourism']
+2124,"['Travel', 'Tourism']"
+2125,['Travel Tourism']
+2127,"['Travel', 'Tourism', 'Site']"
+2128,"['Travel Tourism', 'Tourism Site']"
+2129,['Travel Tourism Site']
+2130,"['Travel', 'Tourism']"
+2131,['Travel Tourism']
+2133,"['Travel', 'Tourism']"
+2134,['Travel Tourism']
+2136,"['Travel', 'Tourism']"
+2137,['Travel Tourism']
+2139,['State']
+2142,['Commission']
+2145,"['State', 'Authority']"
+2148,['Lottery']
+2151,['University']
+2154,"['University', 'Extension']"
+2157,"['University', 'Extension']"
+2163,"['Development', 'Authority']"
+2166,"['University', 'Extension']"
+2169,['University']
+2172,"['University', 'Extension']"
+2175,"['State', 'Council']"
+2178,"['The', 'state', 'The']"
+2181,['Board']
+2187,['Department']
+2190,['Department']
+2196,['Department']
+2199,['Lottery']
+2202,['Council']
+2211,['Department']
+2214,['Department']
+2217,['State']
+2220,['Council']
+2226,"['Travel', 'Tourism', 'Site']"
+2227,"['Travel Tourism', 'Tourism Site']"
+2228,['Travel Tourism Site']
+2229,"['Development', 'Authority']"
+2235,"['The', 'Board', 'Department']"
+2241,['Department']
+2244,['Office']
+2247,['Department']
+2250,"['Travel', 'Tourism']"
+2251,['Travel Tourism']
+2256,['Development']
+2259,['Department']
+2262,['Authority']
+2265,"['Travel', 'Tourism', 'Site']"
+2266,"['Travel Tourism', 'Tourism Site']"
+2267,['Travel Tourism Site']
+2271,"['Travel', 'Tourism']"
+2272,['Travel Tourism']
+2274,"['Travel', 'Tourism', 'Site']"
+2275,"['Travel Tourism', 'Tourism Site']"
+2276,['Travel Tourism Site']
+2277,"['Travel', 'Tourism']"
+2278,['Travel Tourism']
+2280,"['Travel', 'Tourism', 'Site']"
+2281,"['Travel Tourism', 'Tourism Site']"
+2282,['Travel Tourism Site']
+2283,"['Travel', 'Tourism']"
+2284,['Travel Tourism']
+2286,"['Travel', 'Tourism', 'Site']"
+2287,"['Travel Tourism', 'Tourism Site']"
+2288,['Travel Tourism Site']
+2289,"['Travel', 'Tourism']"
+2290,['Travel Tourism']
+2292,"['Travel', 'Tourism', 'Site']"
+2293,"['Travel Tourism', 'Tourism Site']"
+2294,['Travel Tourism Site']
+2295,"['Travel', 'Tourism', 'Site']"
+2296,"['Travel Tourism', 'Tourism Site']"
+2297,['Travel Tourism Site']
+2298,"['Travel', 'Tourism', 'Site']"
+2299,"['Travel Tourism', 'Tourism Site']"
+2300,['Travel Tourism Site']
+2301,"['Travel', 'Tourism', 'Site']"
+2302,"['Travel Tourism', 'Tourism Site']"
+2303,['Travel Tourism Site']
+2304,"['Travel', 'Tourism', 'Site']"
+2305,"['Travel Tourism', 'Tourism Site']"
+2306,['Travel Tourism Site']
+2307,"['Travel', 'Tourism', 'Site']"
+2308,"['Travel Tourism', 'Tourism Site']"
+2309,['Travel Tourism Site']
+2310,['Travel']
+2313,"['Travel', 'Tourism', 'Site']"
+2314,"['Travel Tourism', 'Tourism Site']"
+2315,['Travel Tourism Site']
+2319,"['Department', 'State']"
+2325,['Commission']
+2331,['Commission']
+2340,['State']
+2343,['National']
+2346,['Lottery']
+2349,['Commission']
+2352,['Commission']
+2355,"['State', 'Lottery']"
+2358,"['State', 'Commission']"
+2361,"['Travel', 'Tourism', 'Site']"
+2362,"['Travel Tourism', 'Tourism Site']"
+2363,['Travel Tourism Site']
+2364,['National']
+2367,['National']
+2370,['National']
+2373,"['State', 'Commission']"
+2382,['The']
+2385,"['State', 'Department']"
+2388,"['University', 'Extension']"
+2391,"['Development', 'Authority']"
+2394,['Health']
+2397,"['Development', 'Authority']"
+2400,['Authority']
+2403,['Department']
+2406,['Lottery']
+2409,['Lottery']
+2415,"['State', 'Office']"
+2421,"['NC', 'Health']"
+2424,['State']
+2427,"['State', 'Commission']"
+2430,"['State', 'Commission']"
+2433,['State']
+2436,['Department']
+2439,['Department']
+2442,['Division']
+2445,"['Department', 'Health']"
+2448,['Development']
+2451,['Commission']
+2454,['Department']
+2457,['Lottery']
+2463,['Board']
+2466,['State']
+2469,"['State', 'Office']"
+2472,"['Travel', 'Tourism', 'Site']"
+2473,"['Travel Tourism', 'Tourism Site']"
+2474,['Travel Tourism Site']
+2475,"['Development', 'Authority']"
+2478,['National']
+2481,['Council']
+2484,"['Travel', 'Tourism', 'Site']"
+2485,"['Travel Tourism', 'Tourism Site']"
+2486,['Travel Tourism Site']
