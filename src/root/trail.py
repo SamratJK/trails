@@ -4,6 +4,8 @@ from numpy import binary_repr
 from urllib3 import Retry
 from root.n_gram import generate_n_gram, remove_punctuation
 from collections import defaultdict
+from root.parser_table import parser
+
 import csv
 
 
@@ -77,22 +79,41 @@ def is_in_top(gram_search, top_gram_bin, which_file):
     return value_in
 
 
-def get_note_without_city_name(sentence, city):
+def get_note_without_city_name(sentence):
     sentence = remove_punctuation(sentence)
+    with open("data.txt", "r") as myfile:
+        data = "".join([line for line in myfile.readlines()])
+
+
+    city = list(parser(data)['State'])
+    city[8] = "Columbia"
+   
     words = sentence.split(" ")
-    get_city = list()
-
-    if city:
-        get_name = city.split(" ")
-        name_city = ""
-        for name in get_name:
-
-            if name in words:
-                name_city += name + " "
-
-        get_city.append(name_city)
-
+    get_city = " "
+    
+    for name in city:
+        get_name = name.split(" ")
+        if get_name[0] in words:
+            if len(get_name) ==1:
+                return name 
+            if len(get_name)>1 and get_name[1] in words:
+                return name
+            else:
+                continue
+    
     return get_city
+
+    # if city:
+    #     get_name = city.split(" ")
+    #     name_city = ""
+    #     for name in get_name:
+
+    #         if name in words:
+    #             name_city += name + " "
+
+    #     get_city.append(name_city)
+
+    # return get_city
 
 
 def get_top_n_grams(csv_name, top=20):
@@ -120,11 +141,11 @@ def get_top_n_grams(csv_name, top=20):
         if raw_data.index(data) == 0:
             continue
         data_csv.append(data[5])
-        notes_csv.append(get_note_without_city_name(data[5], data[3]))
+        notes_csv.append(get_note_without_city_name(data[5]))
     tmp = []
     for i in range(0, len(data_csv)):
         a = top_bin[str(i)] + top_ter[str(i)]
-        tmp.append((",".join(a), " ".join(notes_csv[i]), data_csv[i]))
+        tmp.append((",".join(a), "".join(notes_csv[i]), data_csv[i]))
 
     with open("./tests/temp/patter.csv", "w") as write_file:
         file_writer = csv.writer(write_file, delimiter=",")
