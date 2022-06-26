@@ -127,7 +127,7 @@ Travel tourism site,Washington,Travel and tourism site for Washington State -- N
 Travel tourism site,Minnesota,Travel and tourism site for state of Minnesota hosted by Explore Minnesota Tourism -- Note added 4/26/15 2:33
 Cooperative Extension,Virginia,Virginia Cooperative Extension  -- Note added 6/6/14 20:29
 "State University,University Extension,State University Extension",Washington,Washington State University Extension -- Note added 11/20/14 7:10
-"University Extension,Extension Service",Virginia,West Virginia University Extension Service -- Note added 7/24/14 5:33
+"University Extension,Extension Service",West Virginia,West Virginia University Extension Service -- Note added 7/24/14 5:33
 "State University,University Extension,State University Extension",Iowa,Iowa State University Extension -- Note added 8/25/15 20:26
 University Extension,Illinois,University of Illinois Extension -- Note added 11/20/13 15:35
 "Cooperative Extension,Extension Service,Cooperative Extension Service",New Mexico,New Mexico Cooperative Extension Service -- Note added 7/25/13 17:39
@@ -213,7 +213,7 @@ Office State,Illinois,Office of the Illinois State Treasurer -- Note added 7/2/1
 "Economic Development,Development Authority,Economic Development Authority", ,Guam Economic Development Authority (GEDA) web site. GEDA is an autonomous agency of the Government of Guam and a Guam public corporation. -- Note added 6/7/13 17:59
 ,Montana,Montana Board of Investments -- Note added 11/21/13 14:44
 "Economic Development,Development Authority,Economic Development Authority",Iowa,Iowa Economic Development Authority -- Note added 11/21/13 15:05
-,Iowa,"""Iowa Tribe of Oklahoma"
+,Oklahoma,"""Iowa Tribe of Oklahoma"
 National Guard,Iowa,Iowa National Guard -- Note added 1/23/14 14:03
 ,Iowa,Iowa State Fair -- Note added 6/12/13 18:48
 Public Health,North Carolina,"""The North Carolina Division of Public Health"
@@ -785,7 +785,7 @@ National Guard,Vermont,Vermont National Guard -- Note added 1/23/14 14:03
 ,Washington,Washington Hardwoods Commission -- Note added 11/12/14 6:29
 ,Washington,Washington State Lottery -- Note added 12/2/14 7:23
 ,Washington,Washington State Seed Potato Commission -- Note added 11/12/14 6:26
-"Travel Tourism,Tourism Site,Travel Tourism Site",Columbia,Travel and Tourism Site for the District of Columbia -- Note added 6/6/13 19:31
+"Travel Tourism,Tourism Site,Travel Tourism Site", ,Travel and Tourism Site for the District of Columbia -- Note added 6/6/13 19:31
 National Guard,Washington,Washington Air National Guard -- Note added 1/3/14 13:08
 "National Guard,Army National Guard",Washington,Washington Army National Guard -- Note added 1/23/14 14:03
 National Guard,Washington,Washington National Guard -- Note added 1/23/14 14:03
@@ -810,20 +810,20 @@ Historical Society,Wisconsin,Wisconsin Historical Society -- Note added 8/11/14 
 ,Washington,Washington State Commission on Pesticide Registration -- Note added 11/6/14 7:32
 Housing Finance,Washington,Washington State Housing Finance Commission -- Note added 11/6/14 7:27
 ,Washington,Washington State School for the Blind -- Note added 7/31/13 16:31
-,Virginia,West Virginia Department of Agriculture -- Note added 3/31/14 13:07
-,Virginia,West Virginia Department of Commerce -- Note added 3/24/14 16:50
-,Virginia,West Virginia Division of Culture and History -- Note added 3/31/14 13:08
-,Virginia,West Virginia Department of Health and Human Resources -- Note added 7/24/14 5:50
-,Virginia,West Virginia Housing Development Fund -- Note added 7/24/14 5:51
-Higher Education,Virginia,West Virginia Higher Education Policy Commission -- Note added 3/31/14 13:12
-,Virginia,"""West Virginia Department of Commerce"
-,Virginia,West Virginia Lottery -- Note added 6/12/13 14:29
-,Virginia,West Virginia Network for Educational Telecomputing -- Note added 7/24/14 5:54
-,Virginia,West Virginia Consolidated Public Retirement Board -- Note added 3/31/14 13:33
-,Virginia,West Virginia State Parks -- Note added 3/31/14 13:34
-,Virginia,West Virginia State Treasurer's Office -- Note added 3/31/14 13:35
-"Travel Tourism,Tourism Site,Travel Tourism Site",Virginia,Travel and Tourism Site for West Virginia -- Note added 6/6/13 19:18
-Development Authority,Virginia,West Virginia Water Development Authority -- Note added 7/24/14 5:57
+,West Virginia,West Virginia Department of Agriculture -- Note added 3/31/14 13:07
+,West Virginia,West Virginia Department of Commerce -- Note added 3/24/14 16:50
+,West Virginia,West Virginia Division of Culture and History -- Note added 3/31/14 13:08
+,West Virginia,West Virginia Department of Health and Human Resources -- Note added 7/24/14 5:50
+,West Virginia,West Virginia Housing Development Fund -- Note added 7/24/14 5:51
+Higher Education,West Virginia,West Virginia Higher Education Policy Commission -- Note added 3/31/14 13:12
+,West Virginia,"""West Virginia Department of Commerce"
+,West Virginia,West Virginia Lottery -- Note added 6/12/13 14:29
+,West Virginia,West Virginia Network for Educational Telecomputing -- Note added 7/24/14 5:54
+,West Virginia,West Virginia Consolidated Public Retirement Board -- Note added 3/31/14 13:33
+,West Virginia,West Virginia State Parks -- Note added 3/31/14 13:34
+,West Virginia,West Virginia State Treasurer's Office -- Note added 3/31/14 13:35
+"Travel Tourism,Tourism Site,Travel Tourism Site",West Virginia,Travel and Tourism Site for West Virginia -- Note added 6/6/13 19:18
+Development Authority,West Virginia,West Virginia Water Development Authority -- Note added 7/24/14 5:57
 "National Guard,Army National Guard",Montana,Montana Army National Guard -- Note added 3/2/15 6:52
 ,Wyoming,Wyoming Business Council -- Note added 6/7/13 16:41
 "Travel Tourism,Tourism Site,Travel Tourism Site",Wyoming,Travel and Tourism Site for Wyoming -- Note added 6/6/13 19:31

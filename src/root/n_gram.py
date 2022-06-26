@@ -4,8 +4,9 @@ import string
 
 string.punctuation
 nltk.download("stopwords")
-# defining the function to remove punctuation
+
 def remove_punctuation(text):
+    # Defining the function to remove punctuation
     if type(text) == float:
         return text
     ans = ""

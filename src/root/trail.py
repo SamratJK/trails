@@ -1,11 +1,8 @@
-from ntpath import join
-from os import get_terminal_size
-from numpy import binary_repr
-from urllib3 import Retry
-from root.n_gram import generate_n_gram, remove_punctuation, get_words
-from collections import defaultdict
-from root.parser_table import parser
 
+from root.n_gram import generate_n_gram,\
+                        remove_punctuation, get_words
+from collections import defaultdict
+from root.parser_table import parser,ratio_and_distance
 import csv
 
 
@@ -19,15 +16,16 @@ def get_data(csv_name):
 
 
 def get_gram_from_csv(csv_name, result=0):
-
     n_gram_list_u = list()
     n_gram_list_b = list()
     n_gram_list_t = list()
     raw_data = get_data(csv_name)
+
     if result == 0:
         result = len(raw_data) - 1
     else:
         result += 1
+
     for data in raw_data[0:result]:
         if raw_data.index(data) == 0:
             continue
@@ -43,6 +41,7 @@ def get_gram_from_csv(csv_name, result=0):
 
 def get_sorted_dic(ngram_dic):
     default_dict = defaultdict(int)
+
     for gram in ngram_dic:
         for value in gram:
             default_dict[value] += 1
@@ -54,6 +53,7 @@ def get_sorted_dic(ngram_dic):
 
 
 def create_csv(top_gram):
+
     with open("./tests/temp/data_set.csv", "w") as write_file:
         file_writer = csv.writer(
             write_file, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL
@@ -85,34 +85,26 @@ def get_note_without_city_name(sentence):
     with open("data.txt", "r") as myfile:
         data = "".join([line for line in myfile.readlines()])
     city = list(parser(data)["State"])
-    city[8] = "Columbia"
+    city.reverse()
 
     words = get_words(sentence)
     get_city = " "
-
+   
     for name in city:
         get_name = name.split(" ")
+        
+        
         if get_name[0] in words:
             if len(get_name) == 1:
+               
                 return name
             if len(get_name) > 1 and get_name[1] in words:
+            
                 return name
             else:
                 continue
 
     return get_city
-
-    # if city:
-    #     get_name = city.split(" ")
-    #     name_city = ""
-    #     for name in get_name:
-
-    #         if name in words:
-    #             name_city += name + " "
-
-    #     get_city.append(name_city)
-
-    # return get_city
 
 
 def get_top_n_grams(csv_name, top=20):
