@@ -35,14 +35,6 @@ def get_gram_from_csv(csv_name, result=0):
         n_gram_list_u.append(data_u)
         n_gram_list_b.append(data_b)
         n_gram_list_t.append(data_t)
-    with open("bigram_list.csv",'w') as file:
-        file_w = csv.writer(file, delimiter=",")
-        for i in n_gram_list_b:
-            file_w.writerow(i)
-    with open("tri_list.csv",'w') as file:
-        file_w = csv.writer(file, delimiter=",")
-        for i in n_gram_list_t:
-            file_w.writerow(" ".join(i))
 
     return [n_gram_list_u, n_gram_list_b, n_gram_list_t]
 
@@ -53,6 +45,7 @@ def get_sorted_dic(ngram_dic):
     for gram in ngram_dic:
         for value in gram:
             default_dict[value] += 1
+
     default_dict = sorted(
         default_dict.items(), key=lambda x: x[1], reverse=True
     )
@@ -70,7 +63,7 @@ def create_csv(top_gram):
                 file_writer.writerow(data)
 
 
-def is_in_top(gram_search, top_gram_bin, which_file):
+def is_in_top(gram_search, top_gram_bin):
     value_in = defaultdict(list)
 
     for index, value in enumerate(gram_search):
@@ -79,25 +72,15 @@ def is_in_top(gram_search, top_gram_bin, which_file):
 
                 value_in[str(index)].append(grams)
 
-    with open("./tests/temp/" + which_file + ".csv", "w") as write_file:
-        file_writer = csv.writer(write_file, delimiter=",")
-        for key, data in value_in.items():
-            file_writer.writerow((key, data))
     return value_in
 
 
-def get_note_without_city_name(sentence,):
+def get_location_from_notes(sentence, city):
     sentence = remove_punctuation(sentence)
     words = sentence.split("--")
     
     bigram = get_ngrams(words[0].split(" "),2)
     trigram = get_ngrams(words[0].split(" "),3)
-
-    with open("data.txt", "r") as myfile:
-        data = "".join([line for line in myfile.readlines()])
-    
-    city = list(parser(data)["State"])
-    city = set(city)
 
     words = set(sentence.split(" "))
     city_return = city & set(trigram)
@@ -117,7 +100,15 @@ def get_top_n_grams(csv_name, top=20):
     dic_unary = get_sorted_dic(uniary)[0:top]
     dic_binary = get_sorted_dic(binary)[0:top]
     dic_ternary = get_sorted_dic(ternary)[0:top]
+
     sorted = []
+
+    with open("data.txt", "r") as myfile:
+        data_location = "".join([line for line in myfile.readlines()])
+    
+    city = list(parser(data_location)["State"])
+    city = set(city)
+
     for i in range(0, len(get_sorted_dic(ternary))):
         sorted.append((get_sorted_dic(binary)[i] + get_sorted_dic(ternary)[i]))
 
@@ -126,27 +117,26 @@ def get_top_n_grams(csv_name, top=20):
         for data in sorted:
             file_writer.writerow(data)
 
-    top_bin = is_in_top(binary, dic_binary, "grams_in_binary")
-    top_ter = is_in_top(ternary, dic_ternary, "grams_in_ternary")
+    top_bin = is_in_top(binary, dic_binary)
+    top_ter = is_in_top(ternary, dic_ternary)
 
     raw_data = get_data(csv_name)
+    raw_data.pop(0)
     data_csv = list()
     notes_csv = list()
-    for index, data in enumerate(raw_data[0:]):
-        if raw_data.index(data) == 0:
-            continue
-        data_csv.append(data[5])
-        notes_csv.append(get_note_without_city_name(data[5]))
-      
-    tmp = []
-    for i in range(0, len(data_csv)):
+    tmp = list()
+
+    for i,data_location in enumerate(raw_data[0:]):
+        data_csv.append(data_location[5])
+        notes_csv.append(get_location_from_notes(data_location[5], city))
         a = top_bin[str(i)] + top_ter[str(i)]
         tmp.append((",".join(a), " ".join(notes_csv[i]), data_csv[i]))
+    
 
     with open("./tests/temp/patter.csv", "w") as write_file:
         file_writer = csv.writer(write_file, delimiter=",")
-        for data in tmp:
-            file_writer.writerow(data)
+        for data_location in tmp:
+            file_writer.writerow(data_location)
 
     create_csv([dic_unary, dic_binary, dic_ternary])
 
