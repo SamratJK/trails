@@ -123,7 +123,7 @@ def get_top_n_grams(csv_name, top=20):
     tmp = []
     for i in range(0, len(data_csv)):
         a = top_bin[str(i)] + top_ter[str(i)]
-        tmp.append((",".join(a), data_csv[i], " ".join(notes_csv[i])))
+        tmp.append((",".join(a), " ".join(notes_csv[i]), data_csv[i]))
 
     with open("./tests/temp/patter.csv", "w") as write_file:
         file_writer = csv.writer(write_file, delimiter=",")
