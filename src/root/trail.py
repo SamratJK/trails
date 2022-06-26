@@ -2,7 +2,7 @@ from ntpath import join
 from os import get_terminal_size
 from numpy import binary_repr
 from urllib3 import Retry
-from root.n_gram import generate_n_gram
+from root.n_gram import generate_n_gram, remove_punctuation
 from collections import defaultdict
 import csv
 
@@ -78,6 +78,7 @@ def is_in_top(gram_search, top_gram_bin, which_file):
 
 
 def get_note_without_city_name(sentence, city):
+    sentence = remove_punctuation(sentence)
     words = sentence.split(" ")
     get_city = list()
 
