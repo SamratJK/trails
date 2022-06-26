@@ -103,6 +103,9 @@ def get_note_without_city_name(sentence):
                 return name
             else:
                 continue
+        
+        if "District" in words and "Columbia" in words:
+            return "District of Columbia"
 
     return get_city
 
