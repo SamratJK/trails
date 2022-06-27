@@ -29,4 +29,4 @@ Michigan    MI    26    Washington    WA    53
 Minnesota    MN    27    West Virginia    WV    54
 Mississippi    MS    28    Wisconsin    WI    55
 Missouri    MO    29    Wyoming    WY    56
-Montana    MT    30
+Montana    MT	    30

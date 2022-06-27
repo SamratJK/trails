@@ -1,7 +1,7 @@
 from root.n_gram import generate_n_gram
 from root.trail import get_gram_from_csv, get_top_n_grams
 from collections import defaultdict
-
+from root.pdf_extract import get_pdf_save_csv
 
 def test_uni_gram():
     data = "this is trail will it work"
@@ -72,6 +72,7 @@ def test_get_top_n_gram(csv, top=50):
     get_top_n_grams(csv, top)
 
 
+
 if __name__ == "__main__":
     # data = "Technopolis plans to develop in stages an area of no less than 100,000 square meters in order to host companies working in computer technologies and telecommunications the statement said"
     # test_uni_gram()
@@ -82,4 +83,4 @@ if __name__ == "__main__":
     # print(type(a))
     # print(a)
 
-    get_top_n_grams("3_govt_urls_state_only.csv", 25)
+    get_pdf_save_csv("three.pdf")
