@@ -10,10 +10,9 @@ def get_pdf_save_csv(path):
         if len(pdf[i].df.columns) == 10:
             get_table.append(pdf[i].df)
             print(pdf[i].df)
-           
+        if len(pdf[i].df.columns) == 9:
+            pdf[i].to_csv("outbreak_late"+path+".csv")
     result = pd.concat(get_table)
-    result.to_csv(path+".csv")
+    result.to_csv("outbreak"+path+".csv")
 
 
-if __name__ == "__main__":
-    get_pdf_save_csv('one.pdf')
