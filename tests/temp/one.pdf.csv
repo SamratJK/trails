@@ -1,14 +1,5 @@
-,0,1,2,3,4,5,6,7,8,9
-0,Unique ID.,"Name of 
-State/UT","Name of 
-District",Disease/ Illness,"No. of 
-Cases","No. of 
-Deaths","Date of 
-Start of 
-Outbreak","Date of 
-Reporting","Current 
-Status",Comments/ Action Taken
-1,JH/PAK/2022/02/003,Jharkhand,Pakur,"Fever with 
+,Id,State,District,Diseases,Cases,Deaths,Date Of Outbreak,Date Of Reporting,Status,Action Taken
+0,JH/PAK/2022/02/003,Jharkhand,Pakur,"Fever with 
 Rashes",07,00,10-01-22,16-01-22,Under Control,"Cases reported from Village Hathkati, CHC/HSC 
 Hiranpur,  District  Pakur.  The  cases  presented 
 with  fever,  cough  and  maculopapular  rashes  all 
@@ -25,7 +16,7 @@ ELISA.  Most  affected  age  group  was  0-5  years.
 District  RRT  investigated  the  outbreak.  Health 
 education was given. Vitamin A was given to the 
 treated cases."
-2,MH/GAD/2022/02/004,Maharashtra,Gadchiroli,Malaria,07,02,10-01-22,14-01-22,"Under 
+1,MH/GAD/2022/02/004,Maharashtra,Gadchiroli,Malaria,07,02,10-01-22,14-01-22,"Under 
 Surveillance","Cases 
 reported 
 from 

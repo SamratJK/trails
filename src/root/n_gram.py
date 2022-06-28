@@ -5,6 +5,7 @@ import string
 string.punctuation
 nltk.download("stopwords")
 
+
 def remove_punctuation(text):
     # Defining the function to remove punctuation
     if type(text) == float:

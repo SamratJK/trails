@@ -1,8 +1,6 @@
-
-from root.n_gram import generate_n_gram,\
-                        remove_punctuation, get_ngrams
+from root.n_gram import generate_n_gram, remove_punctuation, get_ngrams
 from collections import defaultdict
-from root.parser_table import parser,ratio_and_distance
+from root.parser_table import parser, ratio_and_distance
 import csv
 
 
@@ -78,25 +76,25 @@ def is_in_top(gram_search, top_gram_bin):
 def get_location_from_notes(sentence, city):
     sentence = remove_punctuation(sentence)
     words = sentence.split("--")
-    
-    bigram = get_ngrams(words[0].split(" "),2)
-    trigram = get_ngrams(words[0].split(" "),3)
+
+    bigram = get_ngrams(words[0].split(" "), 2)
+    trigram = get_ngrams(words[0].split(" "), 3)
 
     words = set(sentence.split(" "))
     city_return = city & set(trigram)
-   
+
     if not city_return:
         city_return = city & set(bigram)
 
         if not city_return:
-            city_return = words & city 
-            
+            city_return = words & city
+
     return list(city_return)
 
 
 def get_top_n_grams(csv_name, top=20):
     [uniary, binary, ternary] = get_gram_from_csv(csv_name)
-    
+
     dic_unary = get_sorted_dic(uniary)[0:top]
     dic_binary = get_sorted_dic(binary)[0:top]
     dic_ternary = get_sorted_dic(ternary)[0:top]
@@ -105,7 +103,7 @@ def get_top_n_grams(csv_name, top=20):
 
     with open("data.txt", "r") as myfile:
         data_location = "".join([line for line in myfile.readlines()])
-    
+
     city = list(parser(data_location)["State"])
     city = set(city)
 
@@ -126,12 +124,11 @@ def get_top_n_grams(csv_name, top=20):
     notes_csv = list()
     tmp = list()
 
-    for i,data_location in enumerate(raw_data[0:]):
+    for i, data_location in enumerate(raw_data[0:]):
         data_csv.append(data_location[5])
         notes_csv.append(get_location_from_notes(data_location[5], city))
         a = top_bin[str(i)] + top_ter[str(i)]
         tmp.append((",".join(a), " ".join(notes_csv[i]), data_csv[i]))
-    
 
     with open("./tests/temp/patter.csv", "w") as write_file:
         file_writer = csv.writer(write_file, delimiter=",")

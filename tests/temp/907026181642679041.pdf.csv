@@ -1,14 +1,53 @@
-,0,1,2,3,4,5,6,7,8,9
-0,Unique ID.,"Name of 
-State/UT","Name of 
-District",Disease/ Illness,"No. of 
-Cases","No. of 
-Deaths","Date of 
-Start of 
-Outbreak","Date of 
-Reporting","Current 
-Status",Comments/ Action Taken
-1,KL/ERN/2021/48/0675,Kerala,Ernakulam,"Acute 
+,Id,State,District,Diseases,Cases,Deaths,Date Of Outbreak,Date Of Reporting,Status,Action Taken
+0,JH/DHN/2021/48/0684,Jharkhand,Dhanbad,"Acute 
+Diarrheal 
+Disease",19,00,07-11-21,,"Under 
+Control","Cases reported from Chhatabad 10 No. Baghmara, District 
+Dhanbad.  The  cases  presented  with 
+loose  watery  stool. 
+Water samples were sent for further lab analysis, the result 
+is awaited. District RRT investigated  the outbreak. Health 
+education was given. The line listing of the affected cases 
+was done."
+1,MH/RGD/2021/48/0685,Maharashtra,Raigad,Leptospirosis,12,00,13-11-21,,"Under 
+Surveillance","Cases  reported  from  Village  Durtoli  Adiwashiwadi,  SC 
+Sutarwadi, PHC Ambewadi, Block Rohat, District Raigad. 
+The outbreak happened among workers working in a paddy 
+field.  20  samples  were  sent  to  Civil  Hospital  Alibag  for 
+further lab analysis, out of which 12 samples were found to 
+be positive for Leptospirosis. District RRT investigated the 
+outbreak. 
+Health 
+education 
+was 
+given 
+along 
+with 
+chemoprophylaxis of Doxycycline."
+2,MH/SIN/2021/48/0686,Maharashtra,"Sindhudurg 
+(Kudal)",Malaria,04,00,24-11-21,,"Under 
+Surveillance","Cases 
+reported 
+from 
+SC  Vazare, 
+PHC  Virdi, 
+PHC 
+Morgaon,  Taluk  Dodomarg,  District  Sindhudurg  (Kudal). 
+The  outbreak  was  due  to  migration  of  labourers  from  an 
+endemic  zone.  18 
+samples  were 
+sent 
+for 
+further 
+lab 
+analysis,  out  of  which  four  samples 
+tested  positive  for 
+plasmodium 
+falciparum.  District  RRT 
+investigated 
+the 
+outbreak. Health education was given."
+0,KL/ERN/2021/48/0675,Kerala,Ernakulam,"Acute 
 Diarrheal 
 Disease",61,00,29-10-21,06-12-21,"Under 
 Surveillance","Cases  reported  from  Ward  XI,  PHC  Kakkanad, 
@@ -35,7 +74,7 @@ result
 is  awaited.  District  RRT 
 investigated  the  outbreak.  Health  education  was 
 given."
-2,KL/TRC/2021/48/0676,Kerala,Thrissur,"Acute 
+1,KL/TRC/2021/48/0676,Kerala,Thrissur,"Acute 
 Diarrheal 
 Disease",20,00,26-11-21,31-11-21,"Under 
 Surveillance","Cases 
@@ -63,7 +102,7 @@ is  awaited.  District  RRT
 investigated  the  outbreak.  Health  education  was 
 given and chlorination of the water present in the 
 collection tank was done."
-3,KL/TRC/2021/48/0677,Kerala,Thrissur,Food Poisoning,138,00,01-12-21,06-12-21,"Under 
+2,KL/TRC/2021/48/0677,Kerala,Thrissur,Food Poisoning,138,00,01-12-21,06-12-21,"Under 
 Surveillance","Cases reported from Village/FHC Aloor, District 
 Thrissur. 
 The 
@@ -89,7 +128,7 @@ analysis, the result is awaited. Food sample sent
 to Food safety department,  the  result is awaited. 
 District  RRT  investigated  the  outbreak.  Health 
 education was given."
-0,MH/KOP/2021/48/0678,Maharashtra,Kolapur,Food Poisoning,05,00,03-12-21,05-12-21,Under Control,"Cases 
+3,MH/KOP/2021/48/0678,Maharashtra,Kolapur,Food Poisoning,05,00,03-12-21,05-12-21,Under Control,"Cases 
 reported 
 from  AP/RH:  Khupire,  Block 
 Karveer,  District  Kolapur.  The 
@@ -105,7 +144,7 @@ result
 is  awaited.  District  RRT 
 investigated  the  outbreak.  Health  education  was 
 given."
-1,MZ/AIZ/2021/48/0679,Mizoram,Aizwal West,Dengue,16,00,02-12-21,02-12-21,"Under 
+4,MZ/AIZ/2021/48/0679,Mizoram,Aizwal West,Dengue,16,00,02-12-21,02-12-21,"Under 
 Surveillance","Cases  reported  from  SC  Mission  Vengthlang, 
 Block  Tlangnuam,  District  Aizwal  West.    The 
 cases presented with fever, rash and bodyache.14 
@@ -119,7 +158,7 @@ District
 RRT 
 investigated  the  outbreak.  Health  education  was 
 given."
-2,TN/VEL/2021/48/0680,Tamil Nadu,Vellore,"Acute 
+5,TN/VEL/2021/48/0680,Tamil Nadu,Vellore,"Acute 
 Diarrheal 
 Disease",05,00,01-12-21,03-12-21,"Under 
 Surveillance","Cases 
@@ -137,7 +176,7 @@ lab  analysis,  out  of  which  one  stool  sample  was
 found to be positive for  vibrio cholerae. District 
 RRT investigated the outbreak. Health education 
 was given."
-3,TL/JIL/2021/48/0681,Telangana,Jagtial,Food Poisoning,38,00,03-12-21,04-12-21,Under Control,"Cases 
+6,TL/JIL/2021/48/0681,Telangana,Jagtial,Food Poisoning,38,00,03-12-21,04-12-21,Under Control,"Cases 
 reported 
 from  TS  Resudebtuak  Girls 
 Degree  College  –  Allamayyagutta,  Korutla  (M), 
@@ -150,7 +189,7 @@ presented  with
 vomiting and acute abdominal pain. District RRT 
 investigated  the  outbreak.  Health  education  was 
 given."
-4,TL/KRN/2021/48/0682,Telangana,Karimnagar,Food Poisoning,53,00,03-12-21,05-12-21,Under Control,"Cases  reported  from  Social  Welfare  Residential 
+7,TL/KRN/2021/48/0682,Telangana,Karimnagar,Food Poisoning,53,00,03-12-21,05-12-21,Under Control,"Cases  reported  from  Social  Welfare  Residential 
 School, PHC Choppadandi, District Karimnagar. 
 All 
 the 
@@ -176,7 +215,7 @@ District
 RRT 
 investigated  the  outbreak.  Health  education  was 
 given."
-0,UP/SNB/2021/48/0683,Uttar Pradesh,Sonbhadra,Malaria,119,00,27-11-21,04-12-21,Under Control,"Cases 
+8,UP/SNB/2021/48/0683,Uttar Pradesh,Sonbhadra,Malaria,119,00,27-11-21,04-12-21,Under Control,"Cases 
 reported 
 from  Village  Sindoor  Makra 
 Myorpur, District Sonbhadra. 1415 samples were 
