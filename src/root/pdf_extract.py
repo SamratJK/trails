@@ -50,8 +50,8 @@ def get_pdf_save_csv(path):
         ]
         combine_table = pd.concat(
             [
-                pd.merge(result, result_late, how="right"),
                 pd.merge(result, result_late, how="left"),
+                pd.merge(result, result_late, how="right"),
             ],
             axis=0,
         ).drop_duplicates()
